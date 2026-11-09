@@ -11,6 +11,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 |---|---|---|---|
 | [awsglance — AWS 계정 상황판](https://github.com/LeeGyeongPil/awsglance) | 개발 도구 | AWS 계정 하나의 변경 이력·위험한 설정·지금 확인할 것을 읽기 전용으로 모아 규칙 12개로 판정해 보여 주는 웹 상황판. 자격증명 없이 연습 모드로 먼저 써 볼 수 있습니다. | v0.1.0 |
 | [ko-copycheck: 한국어 글 표절 검사 도구](https://github.com/LeeGyeongPil/ko-copycheck) | 개발 도구 | 제출물 폴더를 오프라인으로 비교해 베낀 글과 바꿔 쓴 글을 순위표와 나란히 보기 HTML로 보여 주는 CLI. winnowing 지문과 문장 Dice 유사도를 씁니다. | v0.1.0 |
+| [llm-page-lint: LLM이 만든 HTML 페이지의 시각 결함 린터](https://github.com/LeeGyeongPil/llm-page-lint) | 개발 도구 | 헤드리스 Chromium에서 글자 겹침·잘림·화면 밖 이탈·이미지 위 낮은 대비 등 8종 결함을 정답 이미지 없이 결정적으로 측정하고, JSON·HTML 보고서와 종료 코드로 CI 게이트에 쓸 수 있는 CLI·라이브러리. | v0.1.2 |
 | [pdf-redpen: LLM 검토 결과를 PDF 형광펜으로](https://github.com/LeeGyeongPil/pdf-redpen) | 개발 도구 | LLM이 인용한 문장을 PDF의 실제 좌표에 연결해 표준 형광펜·메모 주석으로 표시하는 CLI와 라이브러리입니다. 놓친 것을 다시 묻는 재현율 보강 질의를 지원합니다. | v0.1.2 |
 | [cache-autopsy: 프롬프트 캐시가 왜 깨졌는지 알려 주는 CLI](https://github.com/LeeGyeongPil/cache-autopsy) | LLM API | 이미 쌓인 요청·응답 기록만으로 프롬프트 캐시 적중률, 놓친 토큰·비용, 깨진 원인(도구 순서, 타임스탬프 등)을 오프라인으로 보여 주고 CI 게이트로도 쓸 수 있습니다. | v0.1.0 |
 
@@ -46,6 +47,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 |---|---|---|
 | [awsglance](https://github.com/LeeGyeongPil/awsglance) | tool | A read-only web dashboard for one AWS account that shows who changed what, risky settings and what to check now using 12 plain rules; includes a no-credentials practice mode. |
 | [ko-copycheck](https://github.com/LeeGyeongPil/ko-copycheck) | tool | Offline CLI that compares a folder of Korean prose submissions and ranks overlaps using winnowing fingerprints and sentence Dice similarity. |
+| [llm-page-lint](https://github.com/LeeGyeongPil/llm-page-lint) | tool | A CLI and library that deterministically measures eight visual defects in LLM-generated HTML pages using headless Chromium, with JSON/HTML reports and exit codes for CI gates. |
 | [pdf-redpen](https://github.com/LeeGyeongPil/pdf-redpen) | tool | CLI and library that ground quotes from an LLM review to real PDF coordinates and mark them as standard highlight and note annotations, with a recall pass for missed issues. |
 | [cache-autopsy](https://github.com/LeeGyeongPil/cache-autopsy) | tool | Offline CLI that shows prompt cache hit rate, missed tokens and cost, and the likely cause of each miss from stored Anthropic and OpenAI request logs. |
 | [known-secret-guard](https://github.com/LeeGyeongPil/known-secret-guard) | library | Library, CLI and PreToolUse hook that catch known secrets leaving an agent in encoded or split form by matching a precomputed variant set. |
