@@ -16,6 +16,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [pdf-redpen: LLM 검토 결과를 PDF 형광펜으로](https://github.com/LeeGyeongPil/pdf-redpen) | 개발 도구 | LLM이 인용한 문장을 PDF의 실제 좌표에 연결해 표준 형광펜·메모 주석으로 표시하는 CLI와 라이브러리입니다. 놓친 것을 다시 묻는 재현율 보강 질의를 지원합니다. | v0.1.2 |
 | [cache-autopsy: 프롬프트 캐시가 왜 깨졌는지 알려 주는 CLI](https://github.com/LeeGyeongPil/cache-autopsy) | LLM API | 이미 쌓인 요청·응답 기록만으로 프롬프트 캐시 적중률, 놓친 토큰·비용, 깨진 원인(도구 순서, 타임스탬프 등)을 오프라인으로 보여 주고 CI 게이트로도 쓸 수 있습니다. | v0.1.0 |
 | [mcp-schema-shim: MCP 도구 스키마 제공자 호환 계층](https://github.com/LeeGyeongPil/mcp-schema-shim) | MCP·도구 연결 | MCP 도구의 JSON Schema 가 Gemini·OpenAI strict·Anthropic strict 함수 호출 규칙에 맞는지 검사하고 변환하며, 모델이 보낸 인자를 원래 스키마 모양으로 되돌립니다. CLI·stdio 프록시·라이브러리로 쓸 수 있습니다. | v0.1.0 |
+| [embed-ab: 임베딩 모델 A/B 검색 비교 도구](https://github.com/LeeGyeongPil/embed-ab) | RAG·검색 | 내 문서와 질문으로 두 임베딩 모델의 검색 품질을 재현율·nDCG·MRR과 신뢰구간, 결과 겹침으로 비교해 모델 교체·재색인 여부를 수치로 결정하게 해 주는 CLI입니다. | v0.1.0 |
 
 ## 라이브러리
 
@@ -54,6 +55,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [pdf-redpen](https://github.com/LeeGyeongPil/pdf-redpen) | tool | CLI and library that ground quotes from an LLM review to real PDF coordinates and mark them as standard highlight and note annotations, with a recall pass for missed issues. |
 | [cache-autopsy](https://github.com/LeeGyeongPil/cache-autopsy) | tool | Offline CLI that shows prompt cache hit rate, missed tokens and cost, and the likely cause of each miss from stored Anthropic and OpenAI request logs. |
 | [mcp-schema-shim](https://github.com/LeeGyeongPil/mcp-schema-shim) | tool | Checks MCP tool input schemas against Gemini, OpenAI strict and Anthropic strict function-calling rules, rewrites them to fit, and restores returned arguments to the original schema shape. |
+| [embed-ab](https://github.com/LeeGyeongPil/embed-ab) | tool | A CLI that A/B-tests two embedding models on your own data with recall, nDCG, MRR, confidence intervals and top-k overlap, so you can decide on a model swap or re-index with numbers. |
 | [known-secret-guard](https://github.com/LeeGyeongPil/known-secret-guard) | library | Library, CLI and PreToolUse hook that catch known secrets leaving an agent in encoded or split form by matching a precomputed variant set. |
 | [llm-format-guard](https://github.com/LeeGyeongPil/llm-format-guard) | library | Dependency-free Python library that extracts format and length instructions from a chat, re-injects them, measures answers deterministically and repairs only when it strictly reduces violations. |
 | [tts-pace](https://github.com/LeeGyeongPil/tts-pace) | library | A Python library and CLI that measures speaking rate and fits TTS output to a target pace with a speed knob and bounded pitch-preserving tempo change. |
