@@ -9,6 +9,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
+| [n8n-tidy: n8n 워크플로 JSON 의미 diff·정규화 도구](https://github.com/LeeGyeongPil/n8n-tidy) | 자동화 | n8n 워크플로 JSON 을 git 에 넣을 때 생기는 잡음을 지우고, 노드·연결·프롬프트 변경을 읽기 쉬운 의미 단위 diff 로 보여 주는 명령줄 도구입니다. pre-commit 검사와 git diff 연결도 지원합니다. | v0.1.0 |
 | [sft-template-lens: 파인튜닝 데이터 채팅 템플릿 검사기](https://github.com/LeeGyeongPil/sft-template-lens) | 데이터·파인튜닝 | 파인튜닝 JSONL을 모델의 실제 채팅 템플릿과 토크나이저로 렌더해, 학습되는 토큰(손실 마스크)·길이 잘림·형식 오류를 학습 전에 보여 줍니다. 브라우저(업로드 없음)와 Node CLI 모두 지원합니다. | v0.1.0 |
 | [awsglance — AWS 계정 상황판](https://github.com/LeeGyeongPil/awsglance) | 개발 도구 | AWS 계정 하나의 변경 이력·위험한 설정·지금 확인할 것을 읽기 전용으로 모아 규칙 12개로 판정해 보여 주는 웹 상황판. 자격증명 없이 연습 모드로 먼저 써 볼 수 있습니다. | v0.1.0 |
 | [fixplan: 취약점 알림을 조치 계획으로](https://github.com/LeeGyeongPil/fixplan) | 개발 도구 | 취약점 알림마다 모든 권고를 해소하는 최소 상향 버전을 계산하고, PHP·Node·Python 런타임 제약을 확인해 KEV·EPSS 순으로 정렬하는 CLI. | v0.1.0 |
@@ -52,6 +53,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | Project | Type | What it does |
 |---|---|---|
+| [n8n-tidy](https://github.com/LeeGyeongPil/n8n-tidy) | tool | A CLI that strips noise from n8n workflow JSON and shows node, connection and prompt changes as a readable semantic diff, with git and pre-commit integration. |
 | [sft-template-lens](https://github.com/LeeGyeongPil/sft-template-lens) | tool | Renders fine-tuning JSONL with a model's real chat template and tokenizer to show loss masks, truncation and format errors before training. Browser and Node CLI. |
 | [awsglance](https://github.com/LeeGyeongPil/awsglance) | tool | A read-only web dashboard for one AWS account that shows who changed what, risky settings and what to check now using 12 plain rules; includes a no-credentials practice mode. |
 | [fixplan](https://github.com/LeeGyeongPil/fixplan) | tool | A CLI that computes the minimal upgrade clearing every advisory per package (Composer, PyPI, npm), checks runtime constraints, and ranks by KEV and EPSS. |
