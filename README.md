@@ -39,6 +39,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [ko-pii-roundtrip: 한국어 개인정보 가명 처리·복원](https://github.com/LeeGyeongPil/ko-pii-roundtrip) | LLM API | LLM 호출 전에 이름·주민번호·전화 등을 되돌릴 수 있는 가명으로 바꾸고, 스트리밍 답변에서도 조각 경계와 상관없이 원래 값과 조사를 복원하는 TypeScript 라이브러리. | v0.1.1 |
 | [langlock: 로컬 LLM 출력 문자 체계 고정](https://github.com/LeeGyeongPil/langlock) | 로컬 추론 | 한국어로 답하라고 해도 섞여 나오는 한자·가나를 디코딩 단계에서 막는 라이브러리. 바이트 단위 BPE 토크나이저의 반쯤 쓰인 UTF-8 글자까지 추적해 한글은 살리고 금지 문자만 차단합니다. Hugging Face·llama-cpp-python 어댑터와 logit_bias·GBNF·정규식 내보내기, CLI를 제공합니다. | v0.1.1 |
 | [tts-pace: TTS 말속도 측정·맞춤 라이브러리](https://github.com/LeeGyeongPil/tts-pace) | 멀티모달 | 음성의 말속도(쉼을 뺀 초당 음절 수)를 재고, TTS 엔진의 속도 노브와 피치를 유지하는 템포 변환으로 목표 속도에 맞추는 파이썬 라이브러리·CLI입니다. | v0.1.0 |
+| [whisper-scrub: Whisper 환각 문장 정리](https://github.com/LeeGyeongPil/whisper-scrub) | 멀티모달 | 무음·잡음 구간의 가짜 문장과 반복 루프를 신호 기반 규칙으로 찾아 지우고, 정답 없이도 전사 품질을 점검하는 라이브러리·CLI. | v0.1.0 |
 | [한글 검색 토크나이저](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | RAG·검색 | 조사·어미를 떼어 한국어 키워드 검색의 재현율을 높이는 무의존 동기 토크나이저. MiniSearch·Orama·FlexSearch·VitePress 어댑터와 재현율·정밀도·색인 크기 벤치를 제공합니다. | v0.1.0 |
 | [hwpdown — HWP·HWPX를 LLM이 읽기 좋은 마크다운으로](https://github.com/LeeGyeongPil/hwpdown) | RAG·검색 | 공개 규격(HWP 5.0, OWPML)을 직접 파싱해 병합 표·각주·자동 번호를 보존한 마크다운으로 바꾸는 순수 파이썬 라이브러리·CLI입니다. | v0.1.0 |
 
@@ -88,6 +89,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [ko-pii-roundtrip](https://github.com/LeeGyeongPil/ko-pii-roundtrip) | library | TypeScript library that swaps Korean personal data for reversible placeholders before LLM calls and restores originals (with particle correction) even in chunked streaming responses. |
 | [langlock](https://github.com/LeeGyeongPil/langlock) | library | Keeps local LLM output in the intended script (e.g. no stray Han/Kana in Korean answers) by masking logits with a stateful, byte-level-BPE-aware mask. Hugging Face and llama-cpp-python adapters, logit_bias/GBNF/regex export, and a CLI. |
 | [tts-pace](https://github.com/LeeGyeongPil/tts-pace) | library | A Python library and CLI that measures speaking rate and fits TTS output to a target pace with a speed knob and bounded pitch-preserving tempo change. |
+| [whisper-scrub](https://github.com/LeeGyeongPil/whisper-scrub) | library | Library and CLI that detects and removes Whisper hallucinations using signal-based rules and checks transcript quality without ground truth. |
 | [hangul-search-tokenizer](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | library | A zero-dependency synchronous Korean tokenizer that strips josa and eomi for better keyword search, with adapters and a recall/precision/index-size benchmark. |
 | [hwpdown](https://github.com/LeeGyeongPil/hwpdown) | library | Pure-Python library and CLI that parses public HWP 5.0 and HWPX specs into Markdown for LLM/RAG, keeping merged tables, footnotes and numbering. |
 | [ai-lab-agent-loop-mcp](https://github.com/LeeGyeongPil/ai-lab-agent-loop-mcp) | demo | A demo and beginner guide that shows an AI agent loop live: each thought, MCP tool call and observation on a timeline. Runs with a mock model or local Ollama. |
