@@ -11,6 +11,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 |---|---|---|---|
 | [sft-template-lens: 파인튜닝 데이터 채팅 템플릿 검사기](https://github.com/LeeGyeongPil/sft-template-lens) | 데이터·파인튜닝 | 파인튜닝 JSONL을 모델의 실제 채팅 템플릿과 토크나이저로 렌더해, 학습되는 토큰(손실 마스크)·길이 잘림·형식 오류를 학습 전에 보여 줍니다. 브라우저(업로드 없음)와 Node CLI 모두 지원합니다. | v0.1.0 |
 | [awsglance — AWS 계정 상황판](https://github.com/LeeGyeongPil/awsglance) | 개발 도구 | AWS 계정 하나의 변경 이력·위험한 설정·지금 확인할 것을 읽기 전용으로 모아 규칙 12개로 판정해 보여 주는 웹 상황판. 자격증명 없이 연습 모드로 먼저 써 볼 수 있습니다. | v0.1.0 |
+| [fixplan: 취약점 알림을 조치 계획으로](https://github.com/LeeGyeongPil/fixplan) | 개발 도구 | 취약점 알림마다 모든 권고를 해소하는 최소 상향 버전을 계산하고, PHP·Node·Python 런타임 제약을 확인해 KEV·EPSS 순으로 정렬하는 CLI. | v0.1.0 |
 | [ko-copycheck: 한국어 글 표절 검사 도구](https://github.com/LeeGyeongPil/ko-copycheck) | 개발 도구 | 제출물 폴더를 오프라인으로 비교해 베낀 글과 바꿔 쓴 글을 순위표와 나란히 보기 HTML로 보여 주는 CLI. winnowing 지문과 문장 Dice 유사도를 씁니다. | v0.1.0 |
 | [LimitPilot: 사용량 기반 Claude 계정 자동 전환 도구](https://github.com/LeeGyeongPil/limitpilot) | 개발 도구 | 5시간·주간 사용률이 임계에 닿으면 다음 계정으로 자동 전환하는 상주 도구입니다. OS 키체인에 자격증명을 두고, 메뉴바 위젯·대시보드·감시 데몬을 의존성 0 패키지로 제공하며 연습용 목 모드로 안전하게 체험할 수 있습니다. | v0.1.0 |
 | [llm-page-lint: LLM이 만든 HTML 페이지의 시각 결함 린터](https://github.com/LeeGyeongPil/llm-page-lint) | 개발 도구 | 헤드리스 Chromium에서 글자 겹침·잘림·화면 밖 이탈·이미지 위 낮은 대비 등 8종 결함을 정답 이미지 없이 결정적으로 측정하고, JSON·HTML 보고서와 종료 코드로 CI 게이트에 쓸 수 있는 CLI·라이브러리. | v0.1.2 |
@@ -51,6 +52,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 |---|---|---|
 | [sft-template-lens](https://github.com/LeeGyeongPil/sft-template-lens) | tool | Renders fine-tuning JSONL with a model's real chat template and tokenizer to show loss masks, truncation and format errors before training. Browser and Node CLI. |
 | [awsglance](https://github.com/LeeGyeongPil/awsglance) | tool | A read-only web dashboard for one AWS account that shows who changed what, risky settings and what to check now using 12 plain rules; includes a no-credentials practice mode. |
+| [fixplan](https://github.com/LeeGyeongPil/fixplan) | tool | A CLI that computes the minimal upgrade clearing every advisory per package (Composer, PyPI, npm), checks runtime constraints, and ranks by KEV and EPSS. |
 | [ko-copycheck](https://github.com/LeeGyeongPil/ko-copycheck) | tool | Offline CLI that compares a folder of Korean prose submissions and ranks overlaps using winnowing fingerprints and sentence Dice similarity. |
 | [limitpilot](https://github.com/LeeGyeongPil/limitpilot) | tool | A resident tool that switches Claude accounts automatically when session or weekly usage nears a limit. Keeps credentials in the OS keychain, ships a menu-bar widget, dashboard and daemon with zero dependencies, and has a safe practice mode. |
 | [llm-page-lint](https://github.com/LeeGyeongPil/llm-page-lint) | tool | A CLI and library that deterministically measures eight visual defects in LLM-generated HTML pages using headless Chromium, with JSON/HTML reports and exit codes for CI gates. |
