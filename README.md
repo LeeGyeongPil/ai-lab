@@ -10,6 +10,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
 | [n8n-tidy: n8n 워크플로 JSON 의미 diff·정규화 도구](https://github.com/LeeGyeongPil/n8n-tidy) | 자동화 | n8n 워크플로 JSON 을 git 에 넣을 때 생기는 잡음을 지우고, 노드·연결·프롬프트 변경을 읽기 쉬운 의미 단위 diff 로 보여 주는 명령줄 도구입니다. pre-commit 검사와 git diff 연결도 지원합니다. | v0.1.0 |
+| [lora-preflight: LoRA 어댑터 서빙 사전 점검](https://github.com/LeeGyeongPil/lora-preflight) | 데이터·파인튜닝 | PEFT LoRA 어댑터를 vLLM·llama.cpp·Ollama 에 올리기 전에, 설정과 safetensors 헤더만 읽어 런타임별 통과·실패와 수정 명령을 알려 주는 CLI 도구입니다. | v0.1.0 |
 | [pairpick: 선호 쌍 라벨링 브라우저 앱](https://github.com/LeeGyeongPil/pairpick) | 데이터·파인튜닝 | 응답 두 개 중 나은 쪽을 키보드로 고르면 TRL(DPO·KTO)과 LLaMA-Factory가 읽는 파일을 내보냅니다. 서버 없이 브라우저에서만 동작합니다. | v0.1.0 |
 | [sft-template-lens: 파인튜닝 데이터 채팅 템플릿 검사기](https://github.com/LeeGyeongPil/sft-template-lens) | 데이터·파인튜닝 | 파인튜닝 JSONL을 모델의 실제 채팅 템플릿과 토크나이저로 렌더해, 학습되는 토큰(손실 마스크)·길이 잘림·형식 오류를 학습 전에 보여 줍니다. 브라우저(업로드 없음)와 Node CLI 모두 지원합니다. | v0.1.0 |
 | [awsglance — AWS 계정 상황판](https://github.com/LeeGyeongPil/awsglance) | 개발 도구 | AWS 계정 하나의 변경 이력·위험한 설정·지금 확인할 것을 읽기 전용으로 모아 규칙 12개로 판정해 보여 주는 웹 상황판. 자격증명 없이 연습 모드로 먼저 써 볼 수 있습니다. | v0.1.0 |
@@ -56,6 +57,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | Project | Type | What it does |
 |---|---|---|
 | [n8n-tidy](https://github.com/LeeGyeongPil/n8n-tidy) | tool | A CLI that strips noise from n8n workflow JSON and shows node, connection and prompt changes as a readable semantic diff, with git and pre-commit integration. |
+| [lora-preflight](https://github.com/LeeGyeongPil/lora-preflight) | tool | A CLI that reads a PEFT LoRA adapter's config and safetensors header and predicts whether vLLM, llama.cpp and Ollama will accept it, with a fix command for each problem. |
 | [pairpick](https://github.com/LeeGyeongPil/pairpick) | tool | A browser-only app to pick the better of two responses by keyboard and export TRL (DPO, KTO) and LLaMA-Factory preference files. |
 | [sft-template-lens](https://github.com/LeeGyeongPil/sft-template-lens) | tool | Renders fine-tuning JSONL with a model's real chat template and tokenizer to show loss masks, truncation and format errors before training. Browser and Node CLI. |
 | [awsglance](https://github.com/LeeGyeongPil/awsglance) | tool | A read-only web dashboard for one AWS account that shows who changed what, risky settings and what to check now using 12 plain rules; includes a no-credentials practice mode. |
