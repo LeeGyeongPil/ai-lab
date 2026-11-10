@@ -31,6 +31,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
 | [known-secret-guard: 알려진 비밀값 유출 가드](https://github.com/LeeGyeongPil/known-secret-guard) | 개발 도구 | 에이전트가 이미 아는 비밀값을 base64·URL 인코딩·16진수·반으로 쪼갠 모습으로 내보내는 것을 변형 집합으로 잡는 파이썬 라이브러리·CLI·PreToolUse 훅입니다. | v0.1.0 |
+| [korean-asr-eval: 한국어 음성인식 CER 평가](https://github.com/LeeGyeongPil/korean-asr-eval) | 평가·관측 | 한국어 받아쓰기 결과를 이름·지문이 붙은 정규화 프로파일로 채점해 CER·WER을 재현 가능하게 계산하고, 채점 규칙에 따라 모델 순위가 바뀌는지 비교합니다. | v0.1.0 |
 | [llm-format-guard: LLM 답변의 형식·길이 지시 준수 점검 라이브러리](https://github.com/LeeGyeongPil/llm-format-guard) | 평가·관측 | 사용자가 말한 줄 수·글자 수·표 같은 형식 지시를 대화에서 뽑아 다시 알려 주고, 답변을 결정적으로 재서 어긴 경우에만 한 번 고쳐 쓰게 하는 의존성 없는 파이썬 라이브러리입니다. | v0.1.0 |
 | [tts-pace: TTS 말속도 측정·맞춤 라이브러리](https://github.com/LeeGyeongPil/tts-pace) | 멀티모달 | 음성의 말속도(쉼을 뺀 초당 음절 수)를 재고, TTS 엔진의 속도 노브와 피치를 유지하는 템포 변환으로 목표 속도에 맞추는 파이썬 라이브러리·CLI입니다. | v0.1.0 |
 | [한글 검색 토크나이저](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | RAG·검색 | 조사·어미를 떼어 한국어 키워드 검색의 재현율을 높이는 무의존 동기 토크나이저. MiniSearch·Orama·FlexSearch·VitePress 어댑터와 재현율·정밀도·색인 크기 벤치를 제공합니다. | v0.1.0 |
@@ -74,6 +75,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [mcp-schema-shim](https://github.com/LeeGyeongPil/mcp-schema-shim) | tool | Checks MCP tool input schemas against Gemini, OpenAI strict and Anthropic strict function-calling rules, rewrites them to fit, and restores returned arguments to the original schema shape. |
 | [embed-ab](https://github.com/LeeGyeongPil/embed-ab) | tool | A CLI that A/B-tests two embedding models on your own data with recall, nDCG, MRR, confidence intervals and top-k overlap, so you can decide on a model swap or re-index with numbers. |
 | [known-secret-guard](https://github.com/LeeGyeongPil/known-secret-guard) | library | Library, CLI and PreToolUse hook that catch known secrets leaving an agent in encoded or split form by matching a precomputed variant set. |
+| [korean-asr-eval](https://github.com/LeeGyeongPil/korean-asr-eval) | library | Score Korean ASR output with named, fingerprinted normalization profiles; reproducible CER/WER and model comparison across scoring rules. |
 | [llm-format-guard](https://github.com/LeeGyeongPil/llm-format-guard) | library | Dependency-free Python library that extracts format and length instructions from a chat, re-injects them, measures answers deterministically and repairs only when it strictly reduces violations. |
 | [tts-pace](https://github.com/LeeGyeongPil/tts-pace) | library | A Python library and CLI that measures speaking rate and fits TTS output to a target pace with a speed knob and bounded pitch-preserving tempo change. |
 | [hangul-search-tokenizer](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | library | A zero-dependency synchronous Korean tokenizer that strips josa and eomi for better keyword search, with adapters and a recall/precision/index-size benchmark. |
