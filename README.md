@@ -25,6 +25,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [ollama-carry: Ollama 모델 오프라인 이동 도구](https://github.com/LeeGyeongPil/ollama-carry) | 로컬 추론 | 인터넷이 막힌 PC로 Ollama 모델을 옮기는 Dart CLI. 매니페스트와 블롭을 묶어(공유 블롭은 한 번만) FAT32 크기로 나누고, 받는 쪽에서 블롭마다 SHA-256을 검증한 뒤 설치합니다. 연습용 목 모드로 Ollama 없이도 따라 해 볼 수 있습니다. | v0.1.0 |
 | [mcp-schema-shim: MCP 도구 스키마 제공자 호환 계층](https://github.com/LeeGyeongPil/mcp-schema-shim) | MCP·도구 연결 | MCP 도구의 JSON Schema 가 Gemini·OpenAI strict·Anthropic strict 함수 호출 규칙에 맞는지 검사하고 변환하며, 모델이 보낸 인자를 원래 스키마 모양으로 되돌립니다. CLI·stdio 프록시·라이브러리로 쓸 수 있습니다. | v0.1.0 |
 | [embed-ab: 임베딩 모델 A/B 검색 비교 도구](https://github.com/LeeGyeongPil/embed-ab) | RAG·검색 | 내 문서와 질문으로 두 임베딩 모델의 검색 품질을 재현율·nDCG·MRR과 신뢰구간, 결과 겹침으로 비교해 모델 교체·재색인 여부를 수치로 결정하게 해 주는 CLI입니다. | v0.1.0 |
+| [parseoff: 내 PDF로 파서 비교하기](https://github.com/LeeGyeongPil/parseoff) | RAG·검색 | 설치된 PDF 파서를 내 문서에 모두 돌려 원본 페이지 이미지 옆에 결과를 나란히 보여 주고, 정답 없이 계산되는 지표와 라이선스·설치 크기 경고를 함께 알려 주는 CLI. | v0.1.0 |
 
 ## 라이브러리
 
@@ -74,6 +75,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [ollama-carry](https://github.com/LeeGyeongPil/ollama-carry) | tool | A Dart CLI that carries chosen Ollama models to an offline PC: bundles manifests and blobs, splits into FAT32-sized parts, and checks every blob with SHA-256 before installing. |
 | [mcp-schema-shim](https://github.com/LeeGyeongPil/mcp-schema-shim) | tool | Checks MCP tool input schemas against Gemini, OpenAI strict and Anthropic strict function-calling rules, rewrites them to fit, and restores returned arguments to the original schema shape. |
 | [embed-ab](https://github.com/LeeGyeongPil/embed-ab) | tool | A CLI that A/B-tests two embedding models on your own data with recall, nDCG, MRR, confidence intervals and top-k overlap, so you can decide on a model swap or re-index with numbers. |
+| [parseoff](https://github.com/LeeGyeongPil/parseoff) | tool | A CLI that runs every installed PDF parser on your own documents, shows results next to page images, and reports ground-truth-free metrics plus license and size warnings. |
 | [known-secret-guard](https://github.com/LeeGyeongPil/known-secret-guard) | library | Library, CLI and PreToolUse hook that catch known secrets leaving an agent in encoded or split form by matching a precomputed variant set. |
 | [korean-asr-eval](https://github.com/LeeGyeongPil/korean-asr-eval) | library | Score Korean ASR output with named, fingerprinted normalization profiles; reproducible CER/WER and model comparison across scoring rules. |
 | [llm-format-guard](https://github.com/LeeGyeongPil/llm-format-guard) | library | Dependency-free Python library that extracts format and length instructions from a chat, re-injects them, measures answers deterministically and repairs only when it strictly reduces violations. |
