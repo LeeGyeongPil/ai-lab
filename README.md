@@ -38,6 +38,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
+| [spinstop: 에이전트 도구 호출 루프 가드](https://github.com/LeeGyeongPil/spinstop) | 에이전트 | 에이전트가 같은 도구 호출을 되풀이하거나 맴돌 때 도구 실행 전에 감지해 차단하는 TypeScript 라이브러리와 replay CLI. | v0.1.0 |
 | [imeplay — 한국어 IME 조합 입력 E2E 테스트](https://github.com/LeeGyeongPil/imeplay) | 개발 도구 | Enter로 전송하는 채팅 입력창에서 한글 조합 중 Enter가 두 번 전송되거나 마지막 글자가 중복되는 버그를 Playwright 테스트 한 줄로 재현·점검하는 라이브러리와 CLI. | v0.1.0 |
 | [known-secret-guard: 알려진 비밀값 유출 가드](https://github.com/LeeGyeongPil/known-secret-guard) | 개발 도구 | 에이전트가 이미 아는 비밀값을 base64·URL 인코딩·16진수·반으로 쪼갠 모습으로 내보내는 것을 변형 집합으로 잡는 파이썬 라이브러리·CLI·PreToolUse 훅입니다. | v0.1.0 |
 | [한국어 말투 일관성 검사기 (ko-speechlevel)](https://github.com/LeeGyeongPil/ko-speechlevel) | 평가·관측 | LLM 답변에서 존댓말이 반말로 바뀌는 문장을 위치(offset)와 함께 찾아내는 규칙 기반 검사기. 라이브러리·CLI·스트리밍·promptfoo 단언·vitest 매처를 제공하고 런타임 의존성이 없습니다. | v0.1.2 |
@@ -102,6 +103,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [embed-ab](https://github.com/LeeGyeongPil/embed-ab) | tool | A CLI that A/B-tests two embedding models on your own data with recall, nDCG, MRR, confidence intervals and top-k overlap, so you can decide on a model swap or re-index with numbers. |
 | [parseoff](https://github.com/LeeGyeongPil/parseoff) | tool | A CLI that runs every installed PDF parser on your own documents, shows results next to page images, and reports ground-truth-free metrics plus license and size warnings. |
 | [pgvector-doctor](https://github.com/LeeGyeongPil/pgvector-doctor) | tool | Measures pgvector HNSW recall against exact search per filter value for your own query and recommends the cheapest ef_search and iterative_scan setting. |
+| [spinstop](https://github.com/LeeGyeongPil/spinstop) | library | A TypeScript library and replay CLI that detects repeated, near-repeated and cyclic agent tool calls and blocks them before the tool runs. |
 | [imeplay](https://github.com/LeeGyeongPil/imeplay) | library | A Playwright library and CLI that reproduces Hangul IME composition so chat inputs can be regression-tested for double-submit and duplicated last character bugs. |
 | [known-secret-guard](https://github.com/LeeGyeongPil/known-secret-guard) | library | Library, CLI and PreToolUse hook that catch known secrets leaving an agent in encoded or split form by matching a precomputed variant set. |
 | [ko-speechlevel](https://github.com/LeeGyeongPil/ko-speechlevel) | library | A rule-based checker that finds Korean sentences whose speech level slips (e.g. polite to casual) with exact offsets. Ships as library, CLI, streaming checker, promptfoo assertion and vitest matcher; no runtime dependencies. |
