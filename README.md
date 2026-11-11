@@ -39,6 +39,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 |---|---|---|---|
 | [imeplay — 한국어 IME 조합 입력 E2E 테스트](https://github.com/LeeGyeongPil/imeplay) | 개발 도구 | Enter로 전송하는 채팅 입력창에서 한글 조합 중 Enter가 두 번 전송되거나 마지막 글자가 중복되는 버그를 Playwright 테스트 한 줄로 재현·점검하는 라이브러리와 CLI. | v0.1.0 |
 | [known-secret-guard: 알려진 비밀값 유출 가드](https://github.com/LeeGyeongPil/known-secret-guard) | 개발 도구 | 에이전트가 이미 아는 비밀값을 base64·URL 인코딩·16진수·반으로 쪼갠 모습으로 내보내는 것을 변형 집합으로 잡는 파이썬 라이브러리·CLI·PreToolUse 훅입니다. | v0.1.0 |
+| [한국어 말투 일관성 검사기 (ko-speechlevel)](https://github.com/LeeGyeongPil/ko-speechlevel) | 평가·관측 | LLM 답변에서 존댓말이 반말로 바뀌는 문장을 위치(offset)와 함께 찾아내는 규칙 기반 검사기. 라이브러리·CLI·스트리밍·promptfoo 단언·vitest 매처를 제공하고 런타임 의존성이 없습니다. | v0.1.2 |
 | [korean-asr-eval: 한국어 음성인식 CER 평가](https://github.com/LeeGyeongPil/korean-asr-eval) | 평가·관측 | 한국어 받아쓰기 결과를 이름·지문이 붙은 정규화 프로파일로 채점해 CER·WER을 재현 가능하게 계산하고, 채점 규칙에 따라 모델 순위가 바뀌는지 비교합니다. | v0.1.0 |
 | [llm-format-guard: LLM 답변의 형식·길이 지시 준수 점검 라이브러리](https://github.com/LeeGyeongPil/llm-format-guard) | 평가·관측 | 사용자가 말한 줄 수·글자 수·표 같은 형식 지시를 대화에서 뽑아 다시 알려 주고, 답변을 결정적으로 재서 어긴 경우에만 한 번 고쳐 쓰게 하는 의존성 없는 파이썬 라이브러리입니다. | v0.1.0 |
 | [ko-pii-roundtrip: 한국어 개인정보 가명 처리·복원](https://github.com/LeeGyeongPil/ko-pii-roundtrip) | LLM API | LLM 호출 전에 이름·주민번호·전화 등을 되돌릴 수 있는 가명으로 바꾸고, 스트리밍 답변에서도 조각 경계와 상관없이 원래 값과 조사를 복원하는 TypeScript 라이브러리. | v0.1.1 |
@@ -101,6 +102,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [pgvector-doctor](https://github.com/LeeGyeongPil/pgvector-doctor) | tool | Measures pgvector HNSW recall against exact search per filter value for your own query and recommends the cheapest ef_search and iterative_scan setting. |
 | [imeplay](https://github.com/LeeGyeongPil/imeplay) | library | A Playwright library and CLI that reproduces Hangul IME composition so chat inputs can be regression-tested for double-submit and duplicated last character bugs. |
 | [known-secret-guard](https://github.com/LeeGyeongPil/known-secret-guard) | library | Library, CLI and PreToolUse hook that catch known secrets leaving an agent in encoded or split form by matching a precomputed variant set. |
+| [ko-speechlevel](https://github.com/LeeGyeongPil/ko-speechlevel) | library | A rule-based checker that finds Korean sentences whose speech level slips (e.g. polite to casual) with exact offsets. Ships as library, CLI, streaming checker, promptfoo assertion and vitest matcher; no runtime dependencies. |
 | [korean-asr-eval](https://github.com/LeeGyeongPil/korean-asr-eval) | library | Score Korean ASR output with named, fingerprinted normalization profiles; reproducible CER/WER and model comparison across scoring rules. |
 | [llm-format-guard](https://github.com/LeeGyeongPil/llm-format-guard) | library | Dependency-free Python library that extracts format and length instructions from a chat, re-injects them, measures answers deterministically and repairs only when it strictly reduces violations. |
 | [ko-pii-roundtrip](https://github.com/LeeGyeongPil/ko-pii-roundtrip) | library | TypeScript library that swaps Korean personal data for reversible placeholders before LLM calls and restores originals (with particle correction) even in chunked streaming responses. |
