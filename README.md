@@ -49,6 +49,12 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [한글 검색 토크나이저](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | RAG·검색 | 조사·어미를 떼어 한국어 키워드 검색의 재현율을 높이는 무의존 동기 토크나이저. MiniSearch·Orama·FlexSearch·VitePress 어댑터와 재현율·정밀도·색인 크기 벤치를 제공합니다. | v0.1.0 |
 | [hwpdown — HWP·HWPX를 LLM이 읽기 좋은 마크다운으로](https://github.com/LeeGyeongPil/hwpdown) | RAG·검색 | 공개 규격(HWP 5.0, OWPML)을 직접 파싱해 병합 표·각주·자동 번호를 보존한 마크다운으로 바꾸는 순수 파이썬 라이브러리·CLI입니다. | v0.1.0 |
 
+## 플러그인·확장
+
+| 이름 | 분야 | 무엇을 하나요 | 버전 |
+|---|---|---|---|
+| [graphtrail: LangGraph 체크포인트 뷰어](https://github.com/LeeGyeongPil/graphtrail) | 에이전트 | LangGraph SqliteSaver 데이터베이스를 코드 실행 없이 안전하게 읽어 실행 타임라인을 재구성하고, 단계 간 상태를 비교하고, JSON·Markdown·HTML 로 내보내는 CLI 와 읽기 전용 VS Code 확장. | v0.1.2 |
+
 ## 데모
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
@@ -104,6 +110,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [whisper-scrub](https://github.com/LeeGyeongPil/whisper-scrub) | library | Library and CLI that detects and removes Whisper hallucinations using signal-based rules and checks transcript quality without ground truth. |
 | [hangul-search-tokenizer](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | library | A zero-dependency synchronous Korean tokenizer that strips josa and eomi for better keyword search, with adapters and a recall/precision/index-size benchmark. |
 | [hwpdown](https://github.com/LeeGyeongPil/hwpdown) | library | Pure-Python library and CLI that parses public HWP 5.0 and HWPX specs into Markdown for LLM/RAG, keeping merged tables, footnotes and numbering. |
+| [graphtrail](https://github.com/LeeGyeongPil/graphtrail) | plugin | A CLI and read-only VS Code extension that reads LangGraph SqliteSaver databases without executing any code, rebuilds the run timeline, diffs states and exports reports. |
 | [ai-lab-agent-loop-mcp](https://github.com/LeeGyeongPil/ai-lab-agent-loop-mcp) | demo | A demo and beginner guide that shows an AI agent loop live: each thought, MCP tool call and observation on a timeline. Runs with a mock model or local Ollama. |
 | [ai-lab-lora-finetune](https://github.com/LeeGyeongPil/ai-lab-lora-finetune) | demo | Teach a 0.5B model a speaking style with 100 examples via LoRA and inspect an HTML report of loss and before/after answers. |
 | [ai-lab-llm-eval-gate](https://github.com/LeeGyeongPil/ai-lab-llm-eval-gate) | demo | A dependency-free tool that scores prompt changes on a small test set and fails CI when scores drop below a floor or beyond the noise range. Runs offline by replaying recorded answers. |
