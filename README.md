@@ -60,6 +60,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
 | [graphtrail: LangGraph 체크포인트 뷰어](https://github.com/LeeGyeongPil/graphtrail) | 에이전트 | LangGraph SqliteSaver 데이터베이스를 코드 실행 없이 안전하게 읽어 실행 타임라인을 재구성하고, 단계 간 상태를 비교하고, JSON·Markdown·HTML 로 내보내는 CLI 와 읽기 전용 VS Code 확장. | v0.1.2 |
+| [gbnf-lens: GBNF 문법 점검 도구](https://github.com/LeeGyeongPil/gbnf-lens) | 로컬 추론 | 로컬 LLM 서버에 보내기 전에 llama.cpp GBNF 문법을 오프라인으로 점검합니다. 줄·열이 있는 오류, 조용히 의미가 바뀌는 경고, 예시 문자열이 어디서 멈추는지를 보여 주는 라이브러리·CLI·VS Code 확장입니다. | v0.1.2 |
 
 ## 데모
 
@@ -123,6 +124,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [hangul-search-tokenizer](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | library | A zero-dependency synchronous Korean tokenizer that strips josa and eomi for better keyword search, with adapters and a recall/precision/index-size benchmark. |
 | [hwpdown](https://github.com/LeeGyeongPil/hwpdown) | library | Pure-Python library and CLI that parses public HWP 5.0 and HWPX specs into Markdown for LLM/RAG, keeping merged tables, footnotes and numbering. |
 | [graphtrail](https://github.com/LeeGyeongPil/graphtrail) | plugin | A CLI and read-only VS Code extension that reads LangGraph SqliteSaver databases without executing any code, rebuilds the run timeline, diffs states and exports reports. |
+| [gbnf-lens](https://github.com/LeeGyeongPil/gbnf-lens) | plugin | Offline linter for llama.cpp GBNF grammars: line:column errors, warnings for silent behaviour changes, and sample matching that shows where a string stops fitting. Library, CLI and VS Code extension. |
 | [ai-lab-agent-loop-mcp](https://github.com/LeeGyeongPil/ai-lab-agent-loop-mcp) | demo | A demo and beginner guide that shows an AI agent loop live: each thought, MCP tool call and observation on a timeline. Runs with a mock model or local Ollama. |
 | [ai-lab-lora-finetune](https://github.com/LeeGyeongPil/ai-lab-lora-finetune) | demo | Teach a 0.5B model a speaking style with 100 examples via LoRA and inspect an HTML report of loss and before/after answers. |
 | [ai-lab-llm-eval-gate](https://github.com/LeeGyeongPil/ai-lab-llm-eval-gate) | demo | A dependency-free tool that scores prompt changes on a small test set and fails CI when scores drop below a floor or beyond the noise range. Runs offline by replaying recorded answers. |
