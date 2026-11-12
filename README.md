@@ -9,6 +9,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 
 | Project | Area | What it does | Version |
 |---|---|---|---|
+| [sandbox-drift](https://github.com/LeeGyeongPil/sandbox-drift): Catch coding-agent sandbox regressions with canary probes | Agents | A CLI that re-checks a coding agent's OS sandbox boundary with harmless canary probes, diffs against the previous snapshot and exits 1 when a blocked cell becomes allowed. | v0.1.0 |
 | [n8n-tidy](https://github.com/LeeGyeongPil/n8n-tidy): Readable diffs for n8n workflow JSON | Automation | A CLI that strips noise from n8n workflow JSON and shows node, connection and prompt changes as a readable semantic diff, with git and pre-commit integration. | v0.1.0 |
 | [lora-preflight](https://github.com/LeeGyeongPil/lora-preflight): Check a LoRA adapter loads in vLLM, llama.cpp, Ollama | Data & fine-tuning | A CLI that reads a PEFT LoRA adapter's config and safetensors header and predicts whether vLLM, llama.cpp and Ollama will accept it, with a fix command for each problem. | v0.1.0 |
 | [loraport](https://github.com/LeeGyeongPil/loraport): Convert LoRA adapters between mlx-lm and PEFT | Data & fine-tuning | A CLI that converts LoRA adapters between mlx-lm and PEFT formats and proves per-module dW is unchanged. | v0.1.0 |

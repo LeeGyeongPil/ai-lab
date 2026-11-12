@@ -9,6 +9,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
+| [sandbox-drift](https://github.com/LeeGyeongPil/sandbox-drift) | 에이전트 | 코딩 에이전트의 OS 샌드박스 경계를 무해한 카나리 프로브로 다시 확인하고, 이전 스냅샷과 비교해 막혀 있던 것이 열리면 CI 를 실패시키는 CLI 도구입니다. | v0.1.0 |
 | [n8n-tidy: n8n 워크플로 JSON 의미 diff·정규화 도구](https://github.com/LeeGyeongPil/n8n-tidy) | 자동화 | n8n 워크플로 JSON 을 git 에 넣을 때 생기는 잡음을 지우고, 노드·연결·프롬프트 변경을 읽기 쉬운 의미 단위 diff 로 보여 주는 명령줄 도구입니다. pre-commit 검사와 git diff 연결도 지원합니다. | v0.1.0 |
 | [lora-preflight: LoRA 어댑터 서빙 사전 점검](https://github.com/LeeGyeongPil/lora-preflight) | 데이터·파인튜닝 | PEFT LoRA 어댑터를 vLLM·llama.cpp·Ollama 에 올리기 전에, 설정과 safetensors 헤더만 읽어 런타임별 통과·실패와 수정 명령을 알려 주는 CLI 도구입니다. | v0.1.0 |
 | [loraport: LoRA 어댑터 형식 변환·검증](https://github.com/LeeGyeongPil/loraport) | 데이터·파인튜닝 | 맥(mlx-lm)에서 학습한 LoRA 어댑터를 PEFT 형식으로 옮기고, 옮긴 뒤에도 가중치 변화량(dW)이 같은지 모듈별로 수치 확인하는 CLI. | v0.1.0 |
