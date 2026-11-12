@@ -63,6 +63,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [whisper-scrub: Whisper 환각 문장 정리](https://github.com/LeeGyeongPil/whisper-scrub) | 멀티모달 | 무음·잡음 구간의 가짜 문장과 반복 루프를 신호 기반 규칙으로 찾아 지우고, 정답 없이도 전사 품질을 점검하는 라이브러리·CLI. | v0.1.0 |
 | [한글 검색 토크나이저](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | RAG·검색 | 조사·어미를 떼어 한국어 키워드 검색의 재현율을 높이는 무의존 동기 토크나이저. MiniSearch·Orama·FlexSearch·VitePress 어댑터와 재현율·정밀도·색인 크기 벤치를 제공합니다. | v0.1.0 |
 | [hwpdown — HWP·HWPX를 LLM이 읽기 좋은 마크다운으로](https://github.com/LeeGyeongPil/hwpdown) | RAG·검색 | 공개 규격(HWP 5.0, OWPML)을 직접 파싱해 병합 표·각주·자동 번호를 보존한 마크다운으로 바꾸는 순수 파이썬 라이브러리·CLI입니다. | v0.1.0 |
+| [korchunk: 한국어 문장 분리·RAG 청킹](https://github.com/LeeGyeongPil/korchunk) | RAG·검색 | 한국어 문서를 종결어미 규칙으로 문장 단위로 나누고, 토큰 예산에 맞춰 청크로 묶어 원문 오프셋까지 돌려주는 의존성 0 TypeScript 라이브러리입니다. | v0.1.0 |
 | [pdf-cite-locate: RAG 인용 구절을 PDF 화면 좌표로](https://github.com/LeeGyeongPil/pdf-cite-locate) | RAG·검색 | 모델이 돌려준 인용 문자열을 pdf.js 텍스트 레이어에서 근사 정렬로 찾아 줄 단위 강조 사각형과 뷰포트 좌표로 바꿔 주는 의존성 0 TypeScript 라이브러리. 임계값 미만이면 칠하지 않고 최근접 후보를 알립니다. React 오버레이 포함. | v0.1.0 |
 
 ## 플러그인·확장
