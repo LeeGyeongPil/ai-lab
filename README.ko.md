@@ -15,6 +15,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [loraport: LoRA 어댑터 형식 변환·검증](https://github.com/LeeGyeongPil/loraport) | 데이터·파인튜닝 | 맥(mlx-lm)에서 학습한 LoRA 어댑터를 PEFT 형식으로 옮기고, 옮긴 뒤에도 가중치 변화량(dW)이 같은지 모듈별로 수치 확인하는 CLI. | v0.1.0 |
 | [pairpick: 선호 쌍 라벨링 브라우저 앱](https://github.com/LeeGyeongPil/pairpick) | 데이터·파인튜닝 | 응답 두 개 중 나은 쪽을 키보드로 고르면 TRL(DPO·KTO)과 LLaMA-Factory가 읽는 파일을 내보냅니다. 서버 없이 브라우저에서만 동작합니다. | v0.1.0 |
 | [sft-template-lens: 파인튜닝 데이터 채팅 템플릿 검사기](https://github.com/LeeGyeongPil/sft-template-lens) | 데이터·파인튜닝 | 파인튜닝 JSONL을 모델의 실제 채팅 템플릿과 토크나이저로 렌더해, 학습되는 토큰(손실 마스크)·길이 잘림·형식 오류를 학습 전에 보여 줍니다. 브라우저(업로드 없음)와 Node CLI 모두 지원합니다. | v0.1.0 |
+| [tooldata-lint: 도구 호출 학습 데이터 린터](https://github.com/LeeGyeongPil/tooldata-lint) | 데이터·파인튜닝 | 도구 호출 파인튜닝 데이터(JSONL)를 학습 전에 검사합니다. 호출 인자를 도구의 JSON Schema 로 검증하고, 호출과 응답의 짝, 인자 인코딩을 확인해 줄 번호와 규칙 코드로 알려 줍니다. | v0.1.0 |
 | [awsglance — AWS 계정 상황판](https://github.com/LeeGyeongPil/awsglance) | 개발 도구 | AWS 계정 하나의 변경 이력·위험한 설정·지금 확인할 것을 읽기 전용으로 모아 규칙 12개로 판정해 보여 주는 웹 상황판. 자격증명 없이 연습 모드로 먼저 써 볼 수 있습니다. | v0.1.0 |
 | [fixplan: 취약점 알림을 조치 계획으로](https://github.com/LeeGyeongPil/fixplan) | 개발 도구 | 취약점 알림마다 모든 권고를 해소하는 최소 상향 버전을 계산하고, PHP·Node·Python 런타임 제약을 확인해 KEV·EPSS 순으로 정렬하는 CLI. | v0.1.0 |
 | [ko-copycheck: 한국어 글 표절 검사 도구](https://github.com/LeeGyeongPil/ko-copycheck) | 개발 도구 | 제출물 폴더를 오프라인으로 비교해 베낀 글과 바꿔 쓴 글을 순위표와 나란히 보기 HTML로 보여 주는 CLI. winnowing 지문과 문장 Dice 유사도를 씁니다. | v0.1.0 |
