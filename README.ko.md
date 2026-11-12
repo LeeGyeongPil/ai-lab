@@ -44,6 +44,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
 | [spinstop: 에이전트 도구 호출 루프 가드](https://github.com/LeeGyeongPil/spinstop) | 에이전트 | 에이전트가 같은 도구 호출을 되풀이하거나 맴돌 때 도구 실행 전에 감지해 차단하는 TypeScript 라이브러리와 replay CLI. | v0.1.0 |
+| [appcast-updater: Sparkle 호환 업데이트 피드 서명·검증 (Dart)](https://github.com/LeeGyeongPil/appcast-updater) | 개발 도구 | Sparkle 과 같은 appcast·Ed25519 키로 Windows 빌드까지 업데이트를 검증하는 순수 Dart 패키지와 appcast CLI. 키 생성·서명·피드 서명·'왜 업데이트가 안 보이나' 점검을 Linux·Windows CI 에서도 한 줄로 합니다. 설치·재실행은 아직 범위 밖입니다. | v0.1.2 |
 | [imeplay — 한국어 IME 조합 입력 E2E 테스트](https://github.com/LeeGyeongPil/imeplay) | 개발 도구 | Enter로 전송하는 채팅 입력창에서 한글 조합 중 Enter가 두 번 전송되거나 마지막 글자가 중복되는 버그를 Playwright 테스트 한 줄로 재현·점검하는 라이브러리와 CLI. | v0.1.0 |
 | [known-secret-guard: 알려진 비밀값 유출 가드](https://github.com/LeeGyeongPil/known-secret-guard) | 개발 도구 | 에이전트가 이미 아는 비밀값을 base64·URL 인코딩·16진수·반으로 쪼갠 모습으로 내보내는 것을 변형 집합으로 잡는 파이썬 라이브러리·CLI·PreToolUse 훅입니다. | v0.1.0 |
 | [leakverdict: Node.js 메모리 증가 종류 판정](https://github.com/LeeGyeongPil/leakverdict) | 개발 도구 | rss·heapUsed·external·arrayBuffers·활성 핸들 수를 저비용으로 기록하고, 추세와 기울기로 JS 힙·네이티브 버퍼·핸들·할당기 보유 중 어떤 증가인지 근거 수치와 함께 알려 주는 진단 도구입니다. | v0.1.1 |
