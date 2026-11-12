@@ -9,6 +9,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 
 | Project | Area | What it does | Version |
 |---|---|---|---|
+| [langgraph-preflight](https://github.com/LeeGyeongPil/langgraph-preflight): Check a LangGraph StateGraph before it runs | Agents | Statically checks a LangGraph StateGraph before it runs: concurrent writes to keys without reducers, Send fan-out writes, cycles with no exit and unreachable nodes, reported as table, JSON or SARIF. | v0.1.1 |
 | [sandbox-drift](https://github.com/LeeGyeongPil/sandbox-drift): Catch coding-agent sandbox regressions with canary probes | Agents | A CLI that re-checks a coding agent's OS sandbox boundary with harmless canary probes, diffs against the previous snapshot and exits 1 when a blocked cell becomes allowed. | v0.1.0 |
 | [n8n-tidy](https://github.com/LeeGyeongPil/n8n-tidy): Readable diffs for n8n workflow JSON | Automation | A CLI that strips noise from n8n workflow JSON and shows node, connection and prompt changes as a readable semantic diff, with git and pre-commit integration. | v0.1.0 |
 | [lora-preflight](https://github.com/LeeGyeongPil/lora-preflight): Check a LoRA adapter loads in vLLM, llama.cpp, Ollama | Data & fine-tuning | A CLI that reads a PEFT LoRA adapter's config and safetensors header and predicts whether vLLM, llama.cpp and Ollama will accept it, with a fix command for each problem. | v0.1.0 |
