@@ -70,6 +70,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 | Project | Area | What it does | Version |
 |---|---|---|---|
 | [graphtrail](https://github.com/LeeGyeongPil/graphtrail): Inspect LangGraph checkpoints without running code | Agents | A CLI and read-only VS Code extension that reads LangGraph SqliteSaver databases without executing any code, rebuilds the run timeline, diffs states and exports reports. | v0.1.2 |
+| [chatlines](https://github.com/LeeGyeongPil/chatlines): Read and fix chat JSONL as a conversation in VS Code | Data & fine-tuning | A VS Code extension that shows chat-format JSONL training and eval data as a conversation, pairs tool calls with results, and edits one message while keeping the rest of the line byte for byte. | v0.1.2 |
 | [gbnf-lens](https://github.com/LeeGyeongPil/gbnf-lens): Lint llama.cpp GBNF grammars | Local inference | Offline linter for llama.cpp GBNF grammars: line:column errors, warnings for silent behaviour changes, and sample matching that shows where a string stops fitting. Library, CLI and VS Code extension. | v0.1.2 |
 
 ## Demos
