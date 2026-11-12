@@ -46,6 +46,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [spinstop: 에이전트 도구 호출 루프 가드](https://github.com/LeeGyeongPil/spinstop) | 에이전트 | 에이전트가 같은 도구 호출을 되풀이하거나 맴돌 때 도구 실행 전에 감지해 차단하는 TypeScript 라이브러리와 replay CLI. | v0.1.0 |
 | [imeplay — 한국어 IME 조합 입력 E2E 테스트](https://github.com/LeeGyeongPil/imeplay) | 개발 도구 | Enter로 전송하는 채팅 입력창에서 한글 조합 중 Enter가 두 번 전송되거나 마지막 글자가 중복되는 버그를 Playwright 테스트 한 줄로 재현·점검하는 라이브러리와 CLI. | v0.1.0 |
 | [known-secret-guard: 알려진 비밀값 유출 가드](https://github.com/LeeGyeongPil/known-secret-guard) | 개발 도구 | 에이전트가 이미 아는 비밀값을 base64·URL 인코딩·16진수·반으로 쪼갠 모습으로 내보내는 것을 변형 집합으로 잡는 파이썬 라이브러리·CLI·PreToolUse 훅입니다. | v0.1.0 |
+| [leakverdict: Node.js 메모리 증가 종류 판정](https://github.com/LeeGyeongPil/leakverdict) | 개발 도구 | rss·heapUsed·external·arrayBuffers·활성 핸들 수를 저비용으로 기록하고, 추세와 기울기로 JS 힙·네이티브 버퍼·핸들·할당기 보유 중 어떤 증가인지 근거 수치와 함께 알려 주는 진단 도구입니다. | v0.1.1 |
 | [한국어 말투 일관성 검사기 (ko-speechlevel)](https://github.com/LeeGyeongPil/ko-speechlevel) | 평가·관측 | LLM 답변에서 존댓말이 반말로 바뀌는 문장을 위치(offset)와 함께 찾아내는 규칙 기반 검사기. 라이브러리·CLI·스트리밍·promptfoo 단언·vitest 매처를 제공하고 런타임 의존성이 없습니다. | v0.1.2 |
 | [korean-asr-eval: 한국어 음성인식 CER 평가](https://github.com/LeeGyeongPil/korean-asr-eval) | 평가·관측 | 한국어 받아쓰기 결과를 이름·지문이 붙은 정규화 프로파일로 채점해 CER·WER을 재현 가능하게 계산하고, 채점 규칙에 따라 모델 순위가 바뀌는지 비교합니다. | v0.1.0 |
 | [llm-format-guard: LLM 답변의 형식·길이 지시 준수 점검 라이브러리](https://github.com/LeeGyeongPil/llm-format-guard) | 평가·관측 | 사용자가 말한 줄 수·글자 수·표 같은 형식 지시를 대화에서 뽑아 다시 알려 주고, 답변을 결정적으로 재서 어긴 경우에만 한 번 고쳐 쓰게 하는 의존성 없는 파이썬 라이브러리입니다. | v0.1.0 |
