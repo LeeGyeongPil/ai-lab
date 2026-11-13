@@ -87,6 +87,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
+| [config-edit-guard: 설정 파일 최소 편집·검증 스킬](https://github.com/LeeGyeongPil/config-edit-guard) | 개발 도구 | 설정 파일의 값 하나를 바이트 범위만 교체해 고치고, 편집 전후를 의미·텍스트 두 층에서 비교해 의도하지 않은 변경을 종료 코드로 잡아 주는 에이전트 스킬. YAML·JSON/JSONC·TOML·XML·마크다운 앞머리를 지원하며 파이썬 표준 라이브러리만 씁니다. | v0.1.1 |
 | [encoding-roundtrip: 레거시 인코딩 파일 안전 편집 스킬](https://github.com/LeeGyeongPil/encoding-roundtrip) | 개발 도구 | 코딩 에이전트가 CP949·EUC-KR·Shift_JIS·GBK·Windows-125x 파일을 고칠 때 인코딩·BOM·줄끝·마지막 줄바꿈을 그대로 지키고, 저장 전에 손실을 검증하는 에이전트 스킬입니다. | v0.1.2 |
 
 ## 데모

@@ -87,6 +87,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 
 | Project | Area | What it does | Version |
 |---|---|---|---|
+| [config-edit-guard](https://github.com/LeeGyeongPil/config-edit-guard): Edit one config value and catch collateral changes | Developer tools | An agent skill that changes one config value by replacing only its bytes, then compares the files before and after on a semantic and a text layer so unintended changes become an exit code. Supports YAML, JSON/JSONC, TOML, XML and front matter with the Python standard library only. | v0.1.1 |
 | [encoding-roundtrip](https://github.com/LeeGyeongPil/encoding-roundtrip): Edit CP949, EUC-KR and Shift_JIS files without damage | Developer tools | An agent skill that lets coding agents edit non-UTF-8 files (CP949, EUC-KR, Shift_JIS, GBK, Windows-125x) while preserving encoding, BOM, line endings and the final newline, with lossless-write checks. | v0.1.2 |
 
 ## Demos
