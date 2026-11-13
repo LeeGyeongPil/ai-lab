@@ -67,6 +67,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [MCP Apps 호스트 브리지 (Dart·Flutter)](https://github.com/LeeGyeongPil/mcp-apps-host-dart) | MCP·도구 연결 | MCP Apps의 ui:// 화면을 Dart·Flutter 앱에서 띄우는 호스트 쪽 라이브러리. 핸드셰이크, 도구 호출 권한 정책, 기본 CSP, WebView 메시지 브리지를 제공합니다. | v0.1.1 |
 | [hangul-readout: 한국어 TTS 읽기 전처리 라이브러리](https://github.com/LeeGyeongPil/hangul-readout) | 멀티모달 | TTS에 넘기기 직전 숫자·단위·날짜·전화번호를 사람이 읽는 말로 바꾸고, LLM 스트림을 문장 단위로 안전하게 자르는 의존성 없는 TypeScript 라이브러리·CLI. | v0.1.0 |
 | [pixelbudget: 비전 LLM 이미지 토큰 예산 맞추기](https://github.com/LeeGyeongPil/pixelbudget) | 멀티모달 | 이미지를 보내기 전에 모델별 토큰 수를 오프라인으로 추정하고, 예산에 맞게 줄이거나 읽기 좋게 나누는 파이썬 라이브러리와 CLI. 한도마다 출처와 확인 날짜를 붙인 표를 씁니다. | v0.1.0 |
+| [speakerjoin: 음성 인식·화자 분리 결과 합치기](https://github.com/LeeGyeongPil/speakerjoin) | 멀티모달 | 음성 인식(STT) 결과와 화자 분리 결과를 타임스탬프로 맞춰 화자별 대본·자막(SRT, WebVTT, JSON, Markdown, 텍스트)을 만들고, 미배정·겹침·경계 모호 단어를 수치로 점검합니다. | v0.1.0 |
 | [transcript-stitch: 긴 음성 청크 분할과 자막 합치기](https://github.com/LeeGyeongPil/transcript-stitch) | 멀티모달 | 긴 음성을 음성 인식 API 크기 제한에 맞게 나눌 계획을 세우고, 청크별 결과를 시작 시각 보정과 겹침 중복 제거로 하나의 SRT/VTT/텍스트로 합치는 TypeScript 라이브러리·CLI. | v0.1.0 |
 | [tts-pace: TTS 말속도 측정·맞춤 라이브러리](https://github.com/LeeGyeongPil/tts-pace) | 멀티모달 | 음성의 말속도(쉼을 뺀 초당 음절 수)를 재고, TTS 엔진의 속도 노브와 피치를 유지하는 템포 변환으로 목표 속도에 맞추는 파이썬 라이브러리·CLI입니다. | v0.1.0 |
 | [vlmbox: VLM 객체 위치 출력을 이미지 좌표로 변환](https://github.com/LeeGyeongPil/vlmbox) | 멀티모달 | Gemini·Qwen-VL·PaliGemma·Florence-2·Moondream의 박스 출력을 모델별 좌표 규약과 smart_resize 규칙에 맞춰 원본 이미지 픽셀 좌표로 바꾸고, React 오버레이로 겹쳐 그립니다. | v0.1.1 |
