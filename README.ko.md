@@ -79,6 +79,12 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [chatlines: 채팅 JSONL을 대화로 읽고 고치는 VS Code 확장](https://github.com/LeeGyeongPil/chatlines) | 데이터·파인튜닝 | 채팅 형식 학습·평가 JSONL을 VS Code 안에서 대화 카드로 보고, 메시지 하나만 고쳐 저장합니다. 도구 호출과 결과를 짝지어 보여주고 나머지 줄은 바이트 그대로 유지합니다. | v0.1.2 |
 | [gbnf-lens: GBNF 문법 점검 도구](https://github.com/LeeGyeongPil/gbnf-lens) | 로컬 추론 | 로컬 LLM 서버에 보내기 전에 llama.cpp GBNF 문법을 오프라인으로 점검합니다. 줄·열이 있는 오류, 조용히 의미가 바뀌는 경고, 예시 문자열이 어디서 멈추는지를 보여 주는 라이브러리·CLI·VS Code 확장입니다. | v0.1.2 |
 
+## 에이전트 스킬
+
+| 이름 | 분야 | 무엇을 하나요 | 버전 |
+|---|---|---|---|
+| [encoding-roundtrip: 레거시 인코딩 파일 안전 편집 스킬](https://github.com/LeeGyeongPil/encoding-roundtrip) | 개발 도구 | 코딩 에이전트가 CP949·EUC-KR·Shift_JIS·GBK·Windows-125x 파일을 고칠 때 인코딩·BOM·줄끝·마지막 줄바꿈을 그대로 지키고, 저장 전에 손실을 검증하는 에이전트 스킬입니다. | v0.1.2 |
+
 ## 데모
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |

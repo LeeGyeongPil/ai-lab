@@ -79,6 +79,12 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 | [chatlines](https://github.com/LeeGyeongPil/chatlines): Read and fix chat JSONL as a conversation in VS Code | Data & fine-tuning | A VS Code extension that shows chat-format JSONL training and eval data as a conversation, pairs tool calls with results, and edits one message while keeping the rest of the line byte for byte. | v0.1.2 |
 | [gbnf-lens](https://github.com/LeeGyeongPil/gbnf-lens): Lint llama.cpp GBNF grammars | Local inference | Offline linter for llama.cpp GBNF grammars: line:column errors, warnings for silent behaviour changes, and sample matching that shows where a string stops fitting. Library, CLI and VS Code extension. | v0.1.2 |
 
+## Agent skills
+
+| Project | Area | What it does | Version |
+|---|---|---|---|
+| [encoding-roundtrip](https://github.com/LeeGyeongPil/encoding-roundtrip): Edit CP949, EUC-KR and Shift_JIS files without damage | Developer tools | An agent skill that lets coding agents edit non-UTF-8 files (CP949, EUC-KR, Shift_JIS, GBK, Windows-125x) while preserving encoding, BOM, line endings and the final newline, with lossless-write checks. | v0.1.2 |
+
 ## Demos
 
 | Project | Area | What it does | Version |
