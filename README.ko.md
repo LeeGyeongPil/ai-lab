@@ -19,6 +19,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [tooldata-lint: 도구 호출 학습 데이터 린터](https://github.com/LeeGyeongPil/tooldata-lint) | 데이터·파인튜닝 | 도구 호출 파인튜닝 데이터(JSONL)를 학습 전에 검사합니다. 호출 인자를 도구의 JSON Schema 로 검증하고, 호출과 응답의 짝, 인자 인코딩을 확인해 줄 번호와 규칙 코드로 알려 줍니다. | v0.1.0 |
 | [trainer-state-lens: 학습 기록 곡선 진단기](https://github.com/LeeGyeongPil/trainer-state-lens) | 데이터·파인튜닝 | Hugging Face trainer_state.json 을 브라우저에 끌어다 놓으면 학습 곡선을 겹쳐 보여 주고, 과적합·스파이크·발산·학습률 스케줄·DPO 우도 이동·GRPO 정체를 수치 규칙과 근거로 진단합니다. 파일은 브라우저 밖으로 나가지 않습니다. | v0.1.3 |
 | [awsglance — AWS 계정 상황판](https://github.com/LeeGyeongPil/awsglance) | 개발 도구 | AWS 계정 하나의 변경 이력·위험한 설정·지금 확인할 것을 읽기 전용으로 모아 규칙 12개로 판정해 보여 주는 웹 상황판. 자격증명 없이 연습 모드로 먼저 써 볼 수 있습니다. | v0.1.0 |
+| [baseline-modernize: 낡은 웹 패턴 찾기](https://github.com/LeeGyeongPil/baseline-modernize) | 개발 도구 | Baseline 데이터를 기준으로 JS/TS/CSS/HTML 코드의 낡은 패턴을 파서로 결정적으로 찾아 현대적 대체안을 제안하는 정적 분석기입니다. 모델·네트워크 없이 동작하고 SARIF 를 출력합니다. | v0.1.0 |
 | [fixplan: 취약점 알림을 조치 계획으로](https://github.com/LeeGyeongPil/fixplan) | 개발 도구 | 취약점 알림마다 모든 권고를 해소하는 최소 상향 버전을 계산하고, PHP·Node·Python 런타임 제약을 확인해 KEV·EPSS 순으로 정렬하는 CLI. | v0.1.0 |
 | [Flutter 빌드 AI 키 유출 검사기](https://github.com/LeeGyeongPil/flutter-key-audit) | 개발 도구 | Flutter 앱 빌드 결과물(APK·IPA·웹·AOT 바이너리·소스)에 과금되는 AI API 키가 남았는지 오프라인으로 검사하고, 백엔드 경유 구조로 고치는 방법을 안내합니다. | v0.1.0 |
 | [ko-copycheck: 한국어 글 표절 검사 도구](https://github.com/LeeGyeongPil/ko-copycheck) | 개발 도구 | 제출물 폴더를 오프라인으로 비교해 베낀 글과 바꿔 쓴 글을 순위표와 나란히 보기 HTML로 보여 주는 CLI. winnowing 지문과 문장 Dice 유사도를 씁니다. | v0.1.0 |
