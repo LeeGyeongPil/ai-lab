@@ -23,6 +23,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [baseline-modernize: 낡은 웹 패턴 찾기](https://github.com/LeeGyeongPil/baseline-modernize) | 개발 도구 | Baseline 데이터를 기준으로 JS/TS/CSS/HTML 코드의 낡은 패턴을 파서로 결정적으로 찾아 현대적 대체안을 제안하는 정적 분석기입니다. 모델·네트워크 없이 동작하고 SARIF 를 출력합니다. | v0.1.0 |
 | [fixplan: 취약점 알림을 조치 계획으로](https://github.com/LeeGyeongPil/fixplan) | 개발 도구 | 취약점 알림마다 모든 권고를 해소하는 최소 상향 버전을 계산하고, PHP·Node·Python 런타임 제약을 확인해 KEV·EPSS 순으로 정렬하는 CLI. | v0.1.0 |
 | [Flutter 빌드 AI 키 유출 검사기](https://github.com/LeeGyeongPil/flutter-key-audit) | 개발 도구 | Flutter 앱 빌드 결과물(APK·IPA·웹·AOT 바이너리·소스)에 과금되는 AI API 키가 남았는지 오프라인으로 검사하고, 백엔드 경유 구조로 고치는 방법을 안내합니다. | v0.1.0 |
+| [hookparity: 에이전트 훅 교차 검증기](https://github.com/LeeGyeongPil/hookparity) | 개발 도구 | Claude Code·Codex CLI·Gemini CLI의 도구 실행 전 훅이 각 에이전트 규칙에서 실제로 발동·차단되는지 로그인 없이 확인하고 CI 회귀 테스트로 만듭니다. | v0.1.0 |
 | [ko-copycheck: 한국어 글 표절 검사 도구](https://github.com/LeeGyeongPil/ko-copycheck) | 개발 도구 | 제출물 폴더를 오프라인으로 비교해 베낀 글과 바꿔 쓴 글을 순위표와 나란히 보기 HTML로 보여 주는 CLI. winnowing 지문과 문장 Dice 유사도를 씁니다. | v0.1.0 |
 | [LimitPilot: 사용량 기반 Claude 계정 자동 전환 도구](https://github.com/LeeGyeongPil/limitpilot) | 개발 도구 | 5시간·주간 사용률이 임계에 닿으면 다음 계정으로 자동 전환하는 상주 도구입니다. OS 키체인에 자격증명을 두고, 메뉴바 위젯·대시보드·감시 데몬을 의존성 0 패키지로 제공하며 연습용 목 모드로 안전하게 체험할 수 있습니다. | v0.1.0 |
 | [litellm-lint: LiteLLM 프록시 설정 검사기](https://github.com/LeeGyeongPil/litellm-lint) | 개발 도구 | LiteLLM 프록시 config.yaml 의 오타 키, 빠진 환경 변수, 끊어진 폴백·별칭 참조, 하드코딩된 시크릿을 배포 전에 정적으로 잡아 주는 비공식 린터입니다. pre-commit 훅과 JSON Schema 내보내기를 지원합니다. | v0.1.0 |
