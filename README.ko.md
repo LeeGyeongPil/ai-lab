@@ -100,6 +100,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
+| [빌드 컨텍스트 감사 스킬](https://github.com/LeeGyeongPil/build-context-audit) | 개발 도구 | .dockerignore 규칙을 실행 전에 그대로 재현해, 빌드에 실제로 전송되는 파일과 각 파일을 결정한 규칙 줄, 실패할 COPY 소스, 새어 들어가는 비밀 파일을 찾아 주는 에이전트 스킬. | v0.1.1 |
 | [config-edit-guard: 설정 파일 최소 편집·검증 스킬](https://github.com/LeeGyeongPil/config-edit-guard) | 개발 도구 | 설정 파일의 값 하나를 바이트 범위만 교체해 고치고, 편집 전후를 의미·텍스트 두 층에서 비교해 의도하지 않은 변경을 종료 코드로 잡아 주는 에이전트 스킬. YAML·JSON/JSONC·TOML·XML·마크다운 앞머리를 지원하며 파이썬 표준 라이브러리만 씁니다. | v0.1.1 |
 | [conflict-ledger: 병합 충돌 해결 누락 검증 스킬](https://github.com/LeeGyeongPil/conflict-ledger) | 개발 도구 | git 3-way 병합·리베이스 충돌을 공통 조상 기준으로 분류하고, 해결 결과가 한쪽 변경을 잃지 않았는지 줄 단위로 검증하는 에이전트 스킬입니다. 파이썬 표준 라이브러리만 쓰며 한국어·영어 출력을 지원합니다. | v0.1.3 |
 | [crawlpolicy — AI 크롤러별 robots.txt 판정 스킬](https://github.com/LeeGyeongPil/crawlpolicy) | 개발 도구 | 저장한 robots.txt 가 AI 크롤러와 URL마다 실제로 무엇을 허용하는지 RFC 9309 로 판정하고, 의도와 비교해 검증된 최소 수정안과 변경 비교를 보여 주는 에이전트 스킬. | v0.1.4 |
