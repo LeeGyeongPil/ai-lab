@@ -106,6 +106,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 |---|---|---|---|
 | [에이전트 루프와 MCP 한눈에 보기](https://github.com/LeeGyeongPil/ai-lab-agent-loop-mcp) | 에이전트 | AI 에이전트가 생각하고 MCP 도구를 부르고 결과를 읽는 과정을 실시간 타임라인으로 보여 주는 데모와 입문 안내서. 모의 모델로 바로 실행하거나 로컬 Ollama로 돌릴 수 있습니다. | v0.1.1 |
 | [LoRA 파인튜닝 체험 데모](https://github.com/LeeGyeongPil/ai-lab-lora-finetune) | 데이터·파인튜닝 | 예제 100개로 작은 모델에 말투를 가르치고, 학습 전후 답변과 손실 곡선을 HTML 보고서로 확인하는 LoRA 데모 | v0.1.1 |
+| [PySpark 이상치 탐지와 알림 임계값 정하기](https://github.com/LeeGyeongPil/ai-lab-pyspark-anomaly-detection) | 데이터·파인튜닝 | 합성 센서 데이터로 장비·시간대별 기준선을 만들고 z-점수·IQR·robust z·KMeans 거리로 이상 점수를 매긴 뒤, 직접 심어 둔 정답으로 탐지율·오탐률·정밀도를 재고 하루 알림 예산에서 임계값을 고르는 PySpark 실습 데모(5편 시리즈 중 5편). | v0.1.0 |
 | [PySpark 이탈 예측 스코어링](https://github.com/LeeGyeongPil/ai-lab-pyspark-churn-scoring) | 데이터·파인튜닝 | 고객 활동 로그를 최근성·빈도·금액·추세 특성으로 요약해 이탈 확률 모델을 만들고, AUC·재현율·리프트와 비용 기준 임계값으로 연락 대상 고객 목록을 뽑는 PySpark 연습. | v0.1.0 |
 | [PySpark 수요 예측 따라 하기: 시차 특성·누수·WAPE](https://github.com/LeeGyeongPil/ai-lab-pyspark-demand-forecast) | 데이터·파인튜닝 | 여러 매장·상품의 일별 판매 기록에서 PySpark 윈도 함수로 시차·이동평균·요일·휴일 특성을 미래를 훔쳐보지 않게 만들고, 다음 7일 수요를 예측해 '지난주 같은 요일' 기준 예측과 WAPE 로 비교합니다. 누수 실험, 시리즈별 모델, 롤링 백테스트까지 단계별 명령(영/한)으로 보여 줍니다. PySpark 숫자 데이터 시리즈 3편. | v0.1.0 |
 | [PySpark MLlib 선형 회귀로 중고차 가격 예측](https://github.com/LeeGyeongPil/ai-lab-pyspark-price-regression) | 데이터·파인튜닝 | 합성 중고차 데이터로 StringIndexer→OneHotEncoder→VectorAssembler→LinearRegression 파이프라인을 만들고, 학습/검증 분리 후 RMSE·MAE·R²를 평균 기준 모델과 비교해 읽는 단계별 CLI 데모입니다. | v0.1.0 |
