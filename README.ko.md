@@ -106,6 +106,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 |---|---|---|---|
 | [에이전트 루프와 MCP 한눈에 보기](https://github.com/LeeGyeongPil/ai-lab-agent-loop-mcp) | 에이전트 | AI 에이전트가 생각하고 MCP 도구를 부르고 결과를 읽는 과정을 실시간 타임라인으로 보여 주는 데모와 입문 안내서. 모의 모델로 바로 실행하거나 로컬 Ollama로 돌릴 수 있습니다. | v0.1.1 |
 | [LoRA 파인튜닝 체험 데모](https://github.com/LeeGyeongPil/ai-lab-lora-finetune) | 데이터·파인튜닝 | 예제 100개로 작은 모델에 말투를 가르치고, 학습 전후 답변과 손실 곡선을 HTML 보고서로 확인하는 LoRA 데모 | v0.1.1 |
+| [PySpark 매출 집계 투어](https://github.com/LeeGyeongPil/ai-lab-pyspark-sales-aggregation) | 데이터·파인튜닝 | 명령 하나로 합성 매출 10만 행을 PySpark 로 읽어 지점·월·상품별 합계, 평균, 순위, 전월 대비, 누적값을 계산하고 파티션 Parquet 로 저장하며, 지연 실행과 셔플까지 쉽게 설명합니다. | v0.1.0 |
 | [evalgate: 프롬프트 평가 게이트](https://github.com/LeeGyeongPil/ai-lab-llm-eval-gate) | 평가·관측 | 프롬프트를 바꾸면 작은 테스트 세트로 자동 채점하고, 점수가 기준보다 떨어지면 CI를 실패시키는 의존성 없는 도구. 녹화된 답변으로 오프라인에서 바로 체험할 수 있습니다. | v0.1.1 |
 | [LLM 게이트웨이: 여러 모델을 하나로 묶고 폴백·비용 비교](https://github.com/LeeGyeongPil/ai-lab-llm-gateway) | LLM API | OpenAI 형식·Anthropic·Gemini·로컬 Ollama를 한 인터페이스로 호출하고, 설정만 바꿔 모델을 교체하며 재시도·폴백·라우팅을 직접 돌려 봅니다. 호출마다 토큰·추정 비용·지연을 표로 비교하고, 키 없이 mock 모드로 체험할 수 있습니다. | v0.1.2 |
 | [로컬 LLM 속도 벤치마크 (Ollama)](https://github.com/LeeGyeongPil/ai-lab-local-llm-bench) | 로컬 추론 | 내 노트북의 Ollama에 명령 하나로 측정을 돌려 입력 길이와 동시 요청 수가 첫 토큰 지연(TTFT)·초당 토큰·메모리에 주는 영향을 표로 봅니다. 모델·키 없이 녹화된 측정값을 재생하는 연습용 mock 모드를 제공합니다. 양자화 비교와 그래프는 후속 마일스톤입니다. | v0.1.0 |
