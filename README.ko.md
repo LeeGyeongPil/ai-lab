@@ -26,6 +26,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [Flutter 빌드 AI 키 유출 검사기](https://github.com/LeeGyeongPil/flutter-key-audit) | 개발 도구 | Flutter 앱 빌드 결과물(APK·IPA·웹·AOT 바이너리·소스)에 과금되는 AI API 키가 남았는지 오프라인으로 검사하고, 백엔드 경유 구조로 고치는 방법을 안내합니다. | v0.1.0 |
 | [hookparity: 에이전트 훅 교차 검증기](https://github.com/LeeGyeongPil/hookparity) | 개발 도구 | Claude Code·Codex CLI·Gemini CLI의 도구 실행 전 훅이 각 에이전트 규칙에서 실제로 발동·차단되는지 로그인 없이 확인하고 CI 회귀 테스트로 만듭니다. | v0.1.0 |
 | [ko-copycheck: 한국어 글 표절 검사 도구](https://github.com/LeeGyeongPil/ko-copycheck) | 개발 도구 | 제출물 폴더를 오프라인으로 비교해 베낀 글과 바꿔 쓴 글을 순위표와 나란히 보기 HTML로 보여 주는 CLI. winnowing 지문과 문장 Dice 유사도를 씁니다. | v0.1.0 |
+| [kube-llm-lint: LLM 추론 서버 쿠버네티스 매니페스트 린터](https://github.com/LeeGyeongPil/kube-llm-lint) | 개발 도구 | vLLM·SGLang·TGI 컨테이너 인자를 해석해 GPU 수, 공유 메모리, 프로브 시간, HF 캐시 설정이 서로 맞는지 오프라인으로 점검하고 붙여넣을 수 있는 YAML 수정안을 보여 줍니다. | v0.1.0 |
 | [LimitPilot: 사용량 기반 Claude 계정 자동 전환 도구](https://github.com/LeeGyeongPil/limitpilot) | 개발 도구 | 5시간·주간 사용률이 임계에 닿으면 다음 계정으로 자동 전환하는 상주 도구입니다. OS 키체인에 자격증명을 두고, 메뉴바 위젯·대시보드·감시 데몬을 의존성 0 패키지로 제공하며 연습용 목 모드로 안전하게 체험할 수 있습니다. | v0.1.0 |
 | [litellm-lint: LiteLLM 프록시 설정 검사기](https://github.com/LeeGyeongPil/litellm-lint) | 개발 도구 | LiteLLM 프록시 config.yaml 의 오타 키, 빠진 환경 변수, 끊어진 폴백·별칭 참조, 하드코딩된 시크릿을 배포 전에 정적으로 잡아 주는 비공식 린터입니다. pre-commit 훅과 JSON Schema 내보내기를 지원합니다. | v0.1.0 |
 | [llm-page-lint: LLM이 만든 HTML 페이지의 시각 결함 린터](https://github.com/LeeGyeongPil/llm-page-lint) | 개발 도구 | 헤드리스 Chromium에서 글자 겹침·잘림·화면 밖 이탈·이미지 위 낮은 대비 등 8종 결함을 정답 이미지 없이 결정적으로 측정하고, JSON·HTML 보고서와 종료 코드로 CI 게이트에 쓸 수 있는 CLI·라이브러리. | v0.1.2 |
