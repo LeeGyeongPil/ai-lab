@@ -110,6 +110,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [conflict-ledger: 병합 충돌 해결 누락 검증 스킬](https://github.com/LeeGyeongPil/conflict-ledger) | 개발 도구 | git 3-way 병합·리베이스 충돌을 공통 조상 기준으로 분류하고, 해결 결과가 한쪽 변경을 잃지 않았는지 줄 단위로 검증하는 에이전트 스킬입니다. 파이썬 표준 라이브러리만 쓰며 한국어·영어 출력을 지원합니다. | v0.1.3 |
 | [crawlpolicy — AI 크롤러별 robots.txt 판정 스킬](https://github.com/LeeGyeongPil/crawlpolicy) | 개발 도구 | 저장한 robots.txt 가 AI 크롤러와 URL마다 실제로 무엇을 허용하는지 RFC 9309 로 판정하고, 의도와 비교해 검증된 최소 수정안과 변경 비교를 보여 주는 에이전트 스킬. | v0.1.4 |
 | [encoding-roundtrip: 레거시 인코딩 파일 안전 편집 스킬](https://github.com/LeeGyeongPil/encoding-roundtrip) | 개발 도구 | 코딩 에이전트가 CP949·EUC-KR·Shift_JIS·GBK·Windows-125x 파일을 고칠 때 인코딩·BOM·줄끝·마지막 줄바꿈을 그대로 지키고, 저장 전에 손실을 검증하는 에이전트 스킬입니다. | v0.1.2 |
+| [tallycheck — 보고서 속 숫자 재계산 스킬](https://github.com/LeeGyeongPil/tallycheck) | 평가·관측 | 에이전트가 쓴 마크다운 보고서의 합계·비중·평균·증감률·퍼센트포인트를 반올림 오차까지 고려해 다시 계산하고, CSV/JSON 원자료와 맞춰 틀린 칸의 줄·기대값을 알려 주는 에이전트 스킬입니다. | v0.1.2 |
 | [quote-proof: 에이전트 보고서 인용 원문 대조](https://github.com/LeeGyeongPil/quote-proof) | RAG·검색 | 생성된 글의 인용·근거 구간을 원문과 정규화·근사 정렬로 대조해 정확 일치·변형 일치·불일치로 판정하고, 교정본까지 만들어 주는 에이전트 스킬입니다. | v0.1.2 |
 
 ## 데모
