@@ -52,6 +52,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [specpair](https://github.com/LeeGyeongPil/specpair) | 로컬 추론 | 추측 디코딩의 드래프트·대상 모델 짝이 맞는지 GGUF 헤더나 HF 토크나이저만으로 로드 전에 검사하고, llama-server에서 수락률·속도 이득을 측정하는 CLI입니다. | v0.1.0 |
 | [mcp-launch-doctor: stdio MCP 서버 실행 진단](https://github.com/LeeGyeongPil/mcp-launch-doctor) | MCP·도구 연결 | stdio MCP 서버가 앱에서만 'Server disconnected' 로 실패하는 원인을 실행 환경별로 재현하고, 바이트 단위로 stdout 을 검사해 붙여 넣을 수 있는 설정 수정안을 출력하는 CLI. | v0.1.0 |
 | [mcp-schema-shim: MCP 도구 스키마 제공자 호환 계층](https://github.com/LeeGyeongPil/mcp-schema-shim) | MCP·도구 연결 | MCP 도구의 JSON Schema 가 Gemini·OpenAI strict·Anthropic strict 함수 호출 규칙에 맞는지 검사하고 변환하며, 모델이 보낸 인자를 원래 스키마 모양으로 되돌립니다. CLI·stdio 프록시·라이브러리로 쓸 수 있습니다. | v0.1.0 |
+| [mcp-skillpin: MCP 서버가 내려주는 스킬 검증·고정·설치](https://github.com/LeeGyeongPil/mcp-skillpin) | MCP·도구 연결 | MCP Skills Extension(SEP-2640)으로 서버가 내려주는 에이전트 스킬을 파일별 SHA-256으로 검증하고 Claude Code·Codex 폴더에 설치하며, 잠금 파일로 고정해 서버가 몰래 바꾸면 check 로 잡는 CLI. | v0.1.0 |
 | [embed-ab: 임베딩 모델 A/B 검색 비교 도구](https://github.com/LeeGyeongPil/embed-ab) | RAG·검색 | 내 문서와 질문으로 두 임베딩 모델의 검색 품질을 재현율·nDCG·MRR과 신뢰구간, 결과 겹침으로 비교해 모델 교체·재색인 여부를 수치로 결정하게 해 주는 CLI입니다. | v0.1.0 |
 | [parseoff: 내 PDF로 파서 비교하기](https://github.com/LeeGyeongPil/parseoff) | RAG·검색 | 설치된 PDF 파서를 내 문서에 모두 돌려 원본 페이지 이미지 옆에 결과를 나란히 보여 주고, 정답 없이 계산되는 지표와 라이선스·설치 크기 경고를 함께 알려 주는 CLI. | v0.1.0 |
 | [pgvector-doctor: 필터 검색 HNSW recall 진단](https://github.com/LeeGyeongPil/pgvector-doctor) | RAG·검색 | 내 검색 SQL 의 HNSW 인덱스 recall 을 정확 검색과 비교해 필터 값별로 재고, 목표 recall 을 가장 싸게 맞추는 ef_search·iterative_scan 설정을 추천합니다. | v0.1.0 |
