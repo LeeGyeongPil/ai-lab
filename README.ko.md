@@ -23,6 +23,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [arb-guard: 번역된 ARB 파일 무결성 검사기](https://github.com/LeeGyeongPil/arb-guard) | 개발 도구 | LLM·기계 번역으로 채운 Flutter ARB 파일이 원본의 자리표시자, select 키, 복수형 분기, 마크업 태그를 깨뜨리지 않았는지 정적으로 검사합니다. gen-l10n이 통과시키는 문제를 파일:줄 위치와 SARIF로 알려 줍니다. | v0.1.1 |
 | [awsglance — AWS 계정 상황판](https://github.com/LeeGyeongPil/awsglance) | 개발 도구 | AWS 계정 하나의 변경 이력·위험한 설정·지금 확인할 것을 읽기 전용으로 모아 규칙 12개로 판정해 보여 주는 웹 상황판. 자격증명 없이 연습 모드로 먼저 써 볼 수 있습니다. | v0.1.0 |
 | [baseline-modernize: 낡은 웹 패턴 찾기](https://github.com/LeeGyeongPil/baseline-modernize) | 개발 도구 | Baseline 데이터를 기준으로 JS/TS/CSS/HTML 코드의 낡은 패턴을 파서로 결정적으로 찾아 현대적 대체안을 제안하는 정적 분석기입니다. 모델·네트워크 없이 동작하고 SARIF 를 출력합니다. | v0.1.0 |
+| [bases-lint: Obsidian Bases 정적 검사기](https://github.com/LeeGyeongPil/bases-lint) | 개발 도구 | Obsidian 을 열지 않고 .base 파일과 노트의 base 블록을 검사합니다. YAML·식 문법, 함수 이름, 타입, 수식 순환, 조용히 무시되는 설정을 볼트 속성 정보와 함께 잡아냅니다. | v0.1.0 |
 | [ckpt-doctor — safetensors 체크포인트 폴더 무결성 검사](https://github.com/LeeGyeongPil/ckpt-doctor) | 개발 도구 | 모델 폴더나 Hugging Face 캐시에서 어느 .safetensors 샤드가 왜 깨졌는지, 어떤 명령으로 고치는지 알려 주는 CLI입니다. 각 파일의 헤더, 샤드 인덱스, config.json만 읽으므로 가중치를 메모리에 올리지 않고 몇 KB만 읽어 잘린 다운로드, LFS 포인터, 인덱스·설정 불일치, 미완성 캐시를 찾습니다. | v0.1.0 |
 | [fixplan: 취약점 알림을 조치 계획으로](https://github.com/LeeGyeongPil/fixplan) | 개발 도구 | 취약점 알림마다 모든 권고를 해소하는 최소 상향 버전을 계산하고, PHP·Node·Python 런타임 제약을 확인해 KEV·EPSS 순으로 정렬하는 CLI. | v0.1.0 |
 | [Flutter 빌드 AI 키 유출 검사기](https://github.com/LeeGyeongPil/flutter-key-audit) | 개발 도구 | Flutter 앱 빌드 결과물(APK·IPA·웹·AOT 바이너리·소스)에 과금되는 AI API 키가 남았는지 오프라인으로 검사하고, 백엔드 경유 구조로 고치는 방법을 안내합니다. | v0.1.0 |
