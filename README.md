@@ -114,6 +114,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 | [eslint-plugin-llm-call](https://github.com/LeeGyeongPil/eslint-plugin-llm-call): Catch rejected LLM SDK call parameters with ESLint | Developer tools | An ESLint plugin that catches rejected OpenAI and Anthropic SDK call parameters, JSON mode and strict schema mistakes before deploy. | v0.1.3 |
 | [ruleprism](https://github.com/LeeGyeongPil/ruleprism): See which AI rules files apply to the open file in VS Code | Developer tools | A VS Code extension and CLI that show which instruction files each AI coding agent attaches to the open file, in what order and why, and flag rules that silently fail. | v0.1.2 |
 | [gbnf-lens](https://github.com/LeeGyeongPil/gbnf-lens): Lint llama.cpp GBNF grammars | Local inference | Offline linter for llama.cpp GBNF grammars: line:column errors, warnings for silent behaviour changes, and sample matching that shows where a string stops fitting. Library, CLI and VS Code extension. | v0.1.2 |
+| [mcp-unison](https://github.com/LeeGyeongPil/mcp-unison): One source of MCP servers for Claude Code, Codex and VS Code | MCP & tool use | A VS Code extension and CLI that reuse the MCP servers you registered in Claude Code and Codex inside VS Code and Copilot, translating scope precedence and variable syntax and explaining anything it cannot translate. | v0.1.2 |
 
 ## Agent skills
 
