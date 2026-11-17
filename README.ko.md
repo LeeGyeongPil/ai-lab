@@ -64,6 +64,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [judgepool — RAG 검색 정답셋 만들기와 공정한 비교](https://github.com/LeeGyeongPil/judgepool) | RAG·검색 | 검색 결과 파일 여러 개를 브라우저에 올려 시스템 이름을 가린 채 키보드로 관련도(0~3)를 매기면, qrels 정답셋과 trec_eval 과 같은 값의 비교표(nDCG·Recall·P·MRR), 풀링 편향 경고(judged@k)를 얻습니다. | v0.1.0 |
 | [parseoff: 내 PDF로 파서 비교하기](https://github.com/LeeGyeongPil/parseoff) | RAG·검색 | 설치된 PDF 파서를 내 문서에 모두 돌려 원본 페이지 이미지 옆에 결과를 나란히 보여 주고, 정답 없이 계산되는 지표와 라이선스·설치 크기 경고를 함께 알려 주는 CLI. | v0.1.0 |
 | [pgvector-doctor: 필터 검색 HNSW recall 진단](https://github.com/LeeGyeongPil/pgvector-doctor) | RAG·검색 | 내 검색 SQL 의 HNSW 인덱스 recall 을 정확 검색과 비교해 필터 값별로 재고, 목표 recall 을 가장 싸게 맞추는 ef_search·iterative_scan 설정을 추천합니다. | v0.1.0 |
+| [vec0kit: sqlite-vec 테이블 점검·안전 이행 도구](https://github.com/LeeGyeongPil/vec0kit) | RAG·검색 | sqlite-vec vec0 테이블을 점검하고, 차원·거리 척도·양자화·메타데이터 열 변경이나 임베딩 모델 교체를 백업·검증·재개와 함께 안전하게 이행하는 CLI·라이브러리. | v0.1.0 |
 
 ## 라이브러리
 

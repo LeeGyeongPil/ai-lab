@@ -64,6 +64,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 | [judgepool](https://github.com/LeeGyeongPil/judgepool): Build RAG qrels and compare retrievers with pooling warnings | RAG & search | Load several retrieval run files in the browser, judge passages blind with the keyboard, and get a qrels file plus a trec_eval-identical comparison table with pooling-bias warnings. | v0.1.0 |
 | [parseoff](https://github.com/LeeGyeongPil/parseoff): Compare PDF parsers side by side on your documents | RAG & search | A CLI that runs every installed PDF parser on your own documents, shows results next to page images, and reports ground-truth-free metrics plus license and size warnings. | v0.1.0 |
 | [pgvector-doctor](https://github.com/LeeGyeongPil/pgvector-doctor): Tune pgvector HNSW recall per filter | RAG & search | Measures pgvector HNSW recall against exact search per filter value for your own query and recommends the cheapest ef_search and iterative_scan setting. | v0.1.0 |
+| [vec0kit](https://github.com/LeeGyeongPil/vec0kit): Inspect and safely migrate sqlite-vec vec0 tables | RAG & search | A CLI and library to inspect and check sqlite-vec vec0 tables and safely migrate dimensions, metric, quantization, metadata columns or embedding models, with backup, verification and resume. | v0.1.0 |
 
 ## Libraries
 
