@@ -119,6 +119,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [crawlpolicy — AI 크롤러별 robots.txt 판정 스킬](https://github.com/LeeGyeongPil/crawlpolicy) | 개발 도구 | 저장한 robots.txt 가 AI 크롤러와 URL마다 실제로 무엇을 허용하는지 RFC 9309 로 판정하고, 의도와 비교해 검증된 최소 수정안과 변경 비교를 보여 주는 에이전트 스킬. | v0.1.4 |
 | [cron 방언 실행 시각 계산 스킬](https://github.com/LeeGyeongPil/cron-dialects) | 개발 도구 | 스케줄러마다 다른 cron 문법을 해석해 시간대와 서머타임을 반영한 실제 실행 시각을 계산하고, 방언 간 변환을 1년치 실행 시각 비교로 증명하는 에이전트 스킬입니다. | v0.1.0 |
 | [encoding-roundtrip: 레거시 인코딩 파일 안전 편집 스킬](https://github.com/LeeGyeongPil/encoding-roundtrip) | 개발 도구 | 코딩 에이전트가 CP949·EUC-KR·Shift_JIS·GBK·Windows-125x 파일을 고칠 때 인코딩·BOM·줄끝·마지막 줄바꿈을 그대로 지키고, 저장 전에 손실을 검증하는 에이전트 스킬입니다. | v0.1.2 |
+| [rangewise: 생태계별 버전 범위 판정 스킬](https://github.com/LeeGyeongPil/rangewise) | 개발 도구 | npm·Cargo·PyPI·Composer·Maven 의 버전 범위 문법과 사전 릴리스 규칙을 생태계마다 정확히 해석해, 버전이 범위에 맞는지·어떤 버전이 골라지는지·두 요구가 충돌하는지 오프라인으로 판정하는 에이전트 스킬입니다. | v0.1.0 |
 | [tallycheck — 보고서 속 숫자 재계산 스킬](https://github.com/LeeGyeongPil/tallycheck) | 평가·관측 | 에이전트가 쓴 마크다운 보고서의 합계·비중·평균·증감률·퍼센트포인트를 반올림 오차까지 고려해 다시 계산하고, CSV/JSON 원자료와 맞춰 틀린 칸의 줄·기대값을 알려 주는 에이전트 스킬입니다. | v0.1.2 |
 | [quote-proof: 에이전트 보고서 인용 원문 대조](https://github.com/LeeGyeongPil/quote-proof) | RAG·검색 | 생성된 글의 인용·근거 구간을 원문과 정규화·근사 정렬로 대조해 정확 일치·변형 일치·불일치로 판정하고, 교정본까지 만들어 주는 에이전트 스킬입니다. | v0.1.2 |
 
