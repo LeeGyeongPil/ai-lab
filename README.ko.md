@@ -118,6 +118,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [chatlines: 채팅 JSONL을 대화로 읽고 고치는 VS Code 확장](https://github.com/LeeGyeongPil/chatlines) | 데이터·파인튜닝 | 채팅 형식 학습·평가 JSONL을 VS Code 안에서 대화 카드로 보고, 메시지 하나만 고쳐 저장합니다. 도구 호출과 결과를 짝지어 보여주고 나머지 줄은 바이트 그대로 유지합니다. | v0.1.2 |
 | [eslint-plugin-llm-call](https://github.com/LeeGyeongPil/eslint-plugin-llm-call) | 개발 도구 | OpenAI·Anthropic SDK 호출에서 모델별로 거부되는 매개변수, JSON 모드, strict 스키마 규칙 위반을 배포 전에 ESLint 로 잡아 주는 플러그인. | v0.1.3 |
 | [Ruleprism: AI 코딩 도구 규칙 파일 적용 보기](https://github.com/LeeGyeongPil/ruleprism) | 개발 도구 | 열어 둔 파일에 Claude Code·Copilot·Cursor·Codex·Gemini CLI 의 지침 파일이 어떤 순서로 왜 붙는지 VS Code 안에서 보여 주고, 조용히 실패하는 규칙을 찾아 줍니다. CI 용 CLI 도 포함합니다. | v0.1.2 |
+| [streamscope: LLM 스트리밍 응답 디버거](https://github.com/LeeGyeongPil/streamscope) | 개발 도구 | Chrome DevTools 패널에서 LLM 스트리밍(SSE) 응답을 가로채 공급자별 형식을 해석하고, 최종 메시지·도구 호출·지연 지표로 재구성합니다. 깨진 도구 인자 JSON 의 위치와 재생 가능한 내보내기를 제공합니다. | v0.1.1 |
 | [gbnf-lens: GBNF 문법 점검 도구](https://github.com/LeeGyeongPil/gbnf-lens) | 로컬 추론 | 로컬 LLM 서버에 보내기 전에 llama.cpp GBNF 문법을 오프라인으로 점검합니다. 줄·열이 있는 오류, 조용히 의미가 바뀌는 경고, 예시 문자열이 어디서 멈추는지를 보여 주는 라이브러리·CLI·VS Code 확장입니다. | v0.1.2 |
 | [mcp-unison](https://github.com/LeeGyeongPil/mcp-unison) | MCP·도구 연결 | Claude Code·Codex에 등록한 MCP 서버를 VS Code와 Copilot 설정으로 복사 없이 함께 쓰게 해 주는 확장과 CLI. 범위 우선순위와 변수 문법 차이를 원본 규칙대로 변환하고, 옮기지 못한 이유는 경고 코드로 알려 줍니다. | v0.1.2 |
 
