@@ -10,6 +10,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
 | [langgraph-preflight: LangGraph 그래프 실행 전 점검기](https://github.com/LeeGyeongPil/langgraph-preflight) | 에이전트 | LangGraph StateGraph 를 실행하기 전에 정적으로 검사합니다. 리듀서 없는 키에 같은 단계에서 여러 노드가 쓰는 충돌, Send 병렬 분기의 쓰기, 나갈 길 없는 순환, 도달할 수 없는 노드를 찾아 표·JSON·SARIF 로 보여 줍니다. | v0.1.1 |
+| [lgprune: LangGraph 체크포인트 보존 정책 도구](https://github.com/LeeGyeongPil/lgprune) | 에이전트 | LangGraph 체크포인트 DB(SQLite·Postgres)의 용량을 분석하고, 재개·중단 지점을 깨뜨리지 않는 보존 정책을 미리보기 후 한 트랜잭션으로 적용해 디스크를 돌려줍니다. | v0.1.1 |
 | [sandbox-drift](https://github.com/LeeGyeongPil/sandbox-drift) | 에이전트 | 코딩 에이전트의 OS 샌드박스 경계를 무해한 카나리 프로브로 다시 확인하고, 이전 스냅샷과 비교해 막혀 있던 것이 열리면 CI 를 실패시키는 CLI 도구입니다. | v0.1.0 |
 | [n8n-tidy: n8n 워크플로 JSON 의미 diff·정규화 도구](https://github.com/LeeGyeongPil/n8n-tidy) | 자동화 | n8n 워크플로 JSON 을 git 에 넣을 때 생기는 잡음을 지우고, 노드·연결·프롬프트 변경을 읽기 쉬운 의미 단위 diff 로 보여 주는 명령줄 도구입니다. pre-commit 검사와 git diff 연결도 지원합니다. | v0.1.0 |
 | [lora-mergecheck: LoRA 합치기 검증기](https://github.com/LeeGyeongPil/lora-mergecheck) | 데이터·파인튜닝 | LoRA 어댑터를 배포용 체크포인트로 합친 뒤, 가중치 층과 출력 층에서 정밀도·갱신 소실·누락을 수치로 확인하고 종료 코드로 CI 를 막는 명령줄 도구. | v0.1.0 |
