@@ -114,6 +114,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [hwpdown — HWP·HWPX를 LLM이 읽기 좋은 마크다운으로](https://github.com/LeeGyeongPil/hwpdown) | RAG·검색 | 공개 규격(HWP 5.0, OWPML)을 직접 파싱해 병합 표·각주·자동 번호를 보존한 마크다운으로 바꾸는 순수 파이썬 라이브러리·CLI입니다. | v0.1.0 |
 | [korchunk: 한국어 문장 분리·RAG 청킹](https://github.com/LeeGyeongPil/korchunk) | RAG·검색 | 한국어 문서를 종결어미 규칙으로 문장 단위로 나누고, 토큰 예산에 맞춰 청크로 묶어 원문 오프셋까지 돌려주는 의존성 0 TypeScript 라이브러리입니다. | v0.1.0 |
 | [pdf-cite-locate: RAG 인용 구절을 PDF 화면 좌표로](https://github.com/LeeGyeongPil/pdf-cite-locate) | RAG·검색 | 모델이 돌려준 인용 문자열을 pdf.js 텍스트 레이어에서 근사 정렬로 찾아 줄 단위 강조 사각형과 뷰포트 좌표로 바꿔 주는 의존성 0 TypeScript 라이브러리. 임계값 미만이면 칠하지 않고 최근접 후보를 알립니다. React 오버레이 포함. | v0.1.0 |
+| [semsplit: SemanticChunker 대체 라이브러리](https://github.com/LeeGyeongPil/semsplit) | RAG·검색 | langchain-experimental 이 종료된 뒤에도 import 한 줄만 바꿔 같은 청크를 얻는 SemanticChunker 독립 구현입니다. parity CLI 로 옛 구현과 일치 여부와 흔들리는 경계를 확인하고, 최대 크기·정확한 start_index·CJK 문장 분리를 옵션으로 켭니다. | v0.1.0 |
 
 ## 플러그인·확장
 

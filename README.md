@@ -114,6 +114,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 | [hwpdown](https://github.com/LeeGyeongPil/hwpdown): Convert HWP and HWPX documents to Markdown | RAG & search | Pure-Python library and CLI that parses public HWP 5.0 and HWPX specs into Markdown for LLM/RAG, keeping merged tables, footnotes and numbering. | v0.1.0 |
 | [korchunk](https://github.com/LeeGyeongPil/korchunk): Split Korean text into sentences and RAG chunks in JS | RAG & search | A zero-dependency TypeScript library that splits Korean text into sentences by rules and packs them into RAG chunks, returning original-text offsets. | v0.1.0 |
 | [pdf-cite-locate](https://github.com/LeeGyeongPil/pdf-cite-locate): Highlight RAG citations in pdf.js and react-pdf pages | RAG & search | A zero-dependency TypeScript library that finds RAG citation strings in pdf.js text content with approximate alignment and returns line rectangles and viewport coordinates, with an optional React overlay. | v0.1.0 |
+| [semsplit](https://github.com/LeeGyeongPil/semsplit): Drop-in SemanticChunker without langchain-experimental | RAG & search | An independent SemanticChunker that gives the same default chunks as langchain-experimental after its sunset. A parity CLI checks agreement and fragile cuts, and opt-in options add a size cap, exact start_index and CJK sentence splitting. | v0.1.0 |
 
 ## Plugins & extensions
 
