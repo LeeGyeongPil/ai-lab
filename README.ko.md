@@ -138,6 +138,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
 | [graphtrail: LangGraph 체크포인트 뷰어](https://github.com/LeeGyeongPil/graphtrail) | 에이전트 | LangGraph SqliteSaver 데이터베이스를 코드 실행 없이 안전하게 읽어 실행 타임라인을 재구성하고, 단계 간 상태를 비교하고, JSON·Markdown·HTML 로 내보내는 CLI 와 읽기 전용 VS Code 확장. | v0.1.2 |
+| [skills-marketplace-sync](https://github.com/LeeGyeongPil/skills-marketplace-sync) | 에이전트 | SKILL.md 폴더에서 Claude Code·Codex 마켓플레이스 매니페스트를 자동 생성하고, 커밋된 파일과 어긋나면 CI 에서 diff 와 함께 실패시키는 GitHub Action·CLI. | v0.1.2 |
 | [chatlines: 채팅 JSONL을 대화로 읽고 고치는 VS Code 확장](https://github.com/LeeGyeongPil/chatlines) | 데이터·파인튜닝 | 채팅 형식 학습·평가 JSONL을 VS Code 안에서 대화 카드로 보고, 메시지 하나만 고쳐 저장합니다. 도구 호출과 결과를 짝지어 보여주고 나머지 줄은 바이트 그대로 유지합니다. | v0.1.2 |
 | [agentsmd-lazyload: 중첩 AGENTS.md 지연 주입 훅](https://github.com/LeeGyeongPil/agentsmd-lazyload) | 개발 도구 | Codex 가 작업 중 건드린 폴더의 AGENTS.md 를 처음 접근할 때만 컨텍스트에 넣어 주는 훅입니다. 모노레포에서 패키지별 지침이 시작 시점에만 읽히는 문제를 줄이고, Codex 의 파일 우선순위와 바이트 예산을 그대로 따릅니다. | v0.1.1 |
 | [Chat Relink: 사라진 VS Code 채팅 되찾기](https://github.com/LeeGyeongPil/chat-relink) | 개발 도구 | 폴더 이름을 바꾸거나 옮기거나 다시 클론해 사라진 VS Code 채팅 기록을 찾아 미리 보고 되살립니다. 읽기 전용 확장과, 백업·검증·되돌리기를 갖춘 CLI(기본 dry-run)를 제공합니다. 완전 오프라인, 영어·한국어. | v0.1.3 |
