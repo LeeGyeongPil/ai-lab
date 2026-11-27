@@ -124,6 +124,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [tts-pace: TTS 말속도 측정·맞춤 라이브러리](https://github.com/LeeGyeongPil/tts-pace) | 멀티모달 | 음성의 말속도(쉼을 뺀 초당 음절 수)를 재고, TTS 엔진의 속도 노브와 피치를 유지하는 템포 변환으로 목표 속도에 맞추는 파이썬 라이브러리·CLI입니다. | v0.1.0 |
 | [vlmbox: VLM 객체 위치 출력을 이미지 좌표로 변환](https://github.com/LeeGyeongPil/vlmbox) | 멀티모달 | Gemini·Qwen-VL·PaliGemma·Florence-2·Moondream의 박스 출력을 모델별 좌표 규약과 smart_resize 규칙에 맞춰 원본 이미지 픽셀 좌표로 바꾸고, React 오버레이로 겹쳐 그립니다. | v0.1.1 |
 | [whisper-scrub: Whisper 환각 문장 정리](https://github.com/LeeGyeongPil/whisper-scrub) | 멀티모달 | 무음·잡음 구간의 가짜 문장과 반복 루프를 신호 기반 규칙으로 찾아 지우고, 정답 없이도 전사 품질을 점검하는 라이브러리·CLI. | v0.1.0 |
+| [faiss-defuse — 피클 없는 LangChain FAISS 저장본](https://github.com/LeeGyeongPil/faiss-defuse) | RAG·검색 | LangChain FAISS 저장본의 index.pkl 을 실행 없이 검사하고, 피클 없는 형식으로 변환·로드·동등성 검증하는 파이썬 라이브러리와 CLI. | v0.1.1 |
 | [한글 검색 토크나이저](https://github.com/LeeGyeongPil/hangul-search-tokenizer) | RAG·검색 | 조사·어미를 떼어 한국어 키워드 검색의 재현율을 높이는 무의존 동기 토크나이저. MiniSearch·Orama·FlexSearch·VitePress 어댑터와 재현율·정밀도·색인 크기 벤치를 제공합니다. | v0.1.0 |
 | [hwpdown — HWP·HWPX를 LLM이 읽기 좋은 마크다운으로](https://github.com/LeeGyeongPil/hwpdown) | RAG·검색 | 공개 규격(HWP 5.0, OWPML)을 직접 파싱해 병합 표·각주·자동 번호를 보존한 마크다운으로 바꾸는 순수 파이썬 라이브러리·CLI입니다. | v0.1.0 |
 | [korchunk: 한국어 문장 분리·RAG 청킹](https://github.com/LeeGyeongPil/korchunk) | RAG·검색 | 한국어 문서를 종결어미 규칙으로 문장 단위로 나누고, 토큰 예산에 맞춰 청크로 묶어 원문 오프셋까지 돌려주는 의존성 0 TypeScript 라이브러리입니다. | v0.1.0 |
