@@ -161,6 +161,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [encoding-roundtrip: 레거시 인코딩 파일 안전 편집 스킬](https://github.com/LeeGyeongPil/encoding-roundtrip) | 개발 도구 | 코딩 에이전트가 CP949·EUC-KR·Shift_JIS·GBK·Windows-125x 파일을 고칠 때 인코딩·BOM·줄끝·마지막 줄바꿈을 그대로 지키고, 저장 전에 손실을 검증하는 에이전트 스킬입니다. | v0.1.2 |
 | [nfc-path-doctor: NFC·NFD 경로 불일치 진단·수정 스킬](https://github.com/LeeGyeongPil/nfc-path-doctor) | 개발 도구 | 맥에서 만든 한글 파일 이름이 git·압축 파일·텍스트 참조와 어긋나는 문제(NFC·NFD)를 스크립트로 진단하고, dry-run 계획과 되돌리기를 갖춘 방식으로 고쳐 주는 에이전트 스킬. | v0.1.4 |
 | [rangewise: 생태계별 버전 범위 판정 스킬](https://github.com/LeeGyeongPil/rangewise) | 개발 도구 | npm·Cargo·PyPI·Composer·Maven 의 버전 범위 문법과 사전 릴리스 규칙을 생태계마다 정확히 해석해, 버전이 범위에 맞는지·어떤 버전이 골라지는지·두 요구가 충돌하는지 오프라인으로 판정하는 에이전트 스킬입니다. | v0.1.0 |
+| [subtitle-cue-guard: 자막 번역 큐 정렬 검증 스킬](https://github.com/LeeGyeongPil/subtitle-cue-guard) | 개발 도구 | LLM 이 SRT/WebVTT 자막을 번역할 때 생기는 큐 밀림·합쳐짐·누락을 결정적으로 검사하고, 실패한 큐만 다시 번역하게 하는 에이전트 스킬입니다. | v0.1.6 |
 | [tallycheck — 보고서 속 숫자 재계산 스킬](https://github.com/LeeGyeongPil/tallycheck) | 평가·관측 | 에이전트가 쓴 마크다운 보고서의 합계·비중·평균·증감률·퍼센트포인트를 반올림 오차까지 고려해 다시 계산하고, CSV/JSON 원자료와 맞춰 틀린 칸의 줄·기대값을 알려 주는 에이전트 스킬입니다. | v0.1.2 |
 | [quote-proof: 에이전트 보고서 인용 원문 대조](https://github.com/LeeGyeongPil/quote-proof) | RAG·검색 | 생성된 글의 인용·근거 구간을 원문과 정규화·근사 정렬로 대조해 정확 일치·변형 일치·불일치로 판정하고, 교정본까지 만들어 주는 에이전트 스킬입니다. | v0.1.2 |
 
