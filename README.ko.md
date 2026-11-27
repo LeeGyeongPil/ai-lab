@@ -74,6 +74,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [parserpick](https://github.com/LeeGyeongPil/parserpick) | 로컬 추론 | 오픈 모델의 채팅 템플릿을 분석해 vLLM·SGLang의 도구 호출·추론 파서 플래그를 골라 주고, 캡처한 원시 출력을 오프라인으로 재생해 도구 호출이 새는 이유를 설명하는 CLI입니다. GPU나 서버가 필요 없습니다. | v0.1.0 |
 | [ropefit — RoPE/YaRN 컨텍스트 확장 설정 생성·점검](https://github.com/LeeGyeongPil/ropefit) | 로컬 추론 | 모델 설정과 목표 길이를 넣으면 llama.cpp·vLLM·SGLang·Ollama 별 RoPE/YaRN 설정을 만들고, 기존 실행 명령의 조용한 실수를 규칙 11개로 점검하는 브라우저 앱입니다. | v0.1.0 |
 | [specpair](https://github.com/LeeGyeongPil/specpair) | 로컬 추론 | 추측 디코딩의 드래프트·대상 모델 짝이 맞는지 GGUF 헤더나 HF 토크나이저만으로 로드 전에 검사하고, llama-server에서 수락률·속도 이득을 측정하는 CLI입니다. | v0.1.0 |
+| [listchange-probe: MCP 목록 변경 알림 호환성 판정](https://github.com/LeeGyeongPil/listchange-probe) | MCP·도구 연결 | MCP 클라이언트가 list_changed 알림 뒤에 도구·프롬프트·리소스 목록을 다시 가져오는지 트래픽을 기록해 PASS/PASS_SLOW/FAIL/UNKNOWN 으로 판정하는 TypeScript CLI. | v0.1.5 |
 | [mcp-launch-doctor: stdio MCP 서버 실행 진단](https://github.com/LeeGyeongPil/mcp-launch-doctor) | MCP·도구 연결 | stdio MCP 서버가 앱에서만 'Server disconnected' 로 실패하는 원인을 실행 환경별로 재현하고, 바이트 단위로 stdout 을 검사해 붙여 넣을 수 있는 설정 수정안을 출력하는 CLI. | v0.1.0 |
 | [MCP 프롬프트를 슬래시 명령으로](https://github.com/LeeGyeongPil/mcp-prompt-commands) | MCP·도구 연결 | MCP 서버의 prompts/list 결과를 읽어, 프롬프트를 보여 주지 않는 에이전트 화면에서도 쓸 수 있게 슬래시 명령·스킬 파일로 만들어 주는 CLI. 기존 설정은 읽기만 하며 live·static 모드와 CI용 드리프트 검사를 제공한다. | v0.1.0 |
 | [mcp-pubcheck — MCP 서버 게시 전 점검](https://github.com/LeeGyeongPil/mcp-pubcheck) | MCP·도구 연결 | MCP 서버를 npm·PyPI·MCPB·Docker 로 게시하고 공식 레지스트리에 등록하기 전에, 빌드된 산출물 안의 이름·버전·소유권 표시·해시를 server.json 과 오프라인으로 대조해 불일치를 미리 잡는 CLI. | v0.1.0 |
