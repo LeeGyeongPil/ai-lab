@@ -89,6 +89,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
+| [AG-UI 에이전트를 AI SDK useChat 에 연결하는 트랜스포트](https://github.com/LeeGyeongPil/agui-chat-transport) | 에이전트 | AI SDK useChat 에서 AG-UI 에이전트 서버를 그대로 쓰게 해 주는 ChatTransport. AG-UI 이벤트 31종을 UIMessage 청크로 바꾸고 반대 방향도 변환하며, 대응하지 못한 이벤트는 조용히 버리지 않고 보고한다. | v0.1.3 |
 | [spinstop: 에이전트 도구 호출 루프 가드](https://github.com/LeeGyeongPil/spinstop) | 에이전트 | 에이전트가 같은 도구 호출을 되풀이하거나 맴돌 때 도구 실행 전에 감지해 차단하는 TypeScript 라이브러리와 replay CLI. | v0.1.0 |
 | [prefcheck: 선호 학습 데이터 사전 검사](https://github.com/LeeGyeongPil/prefcheck) | 데이터·파인튜닝 | DPO/ORPO 선호 학습 데이터를 학습 전에 검사합니다. TRL 1.18 의 토큰화·잘림 규칙을 재현해 조용히 버려질 행, 잘린 뒤 같아지는 쌍, 모순 라벨, chosen 길이 편향을 행 번호와 수치로 알려 줍니다. | v0.1.0 |
 | [appcast-updater: Sparkle 호환 업데이트 피드 서명·검증 (Dart)](https://github.com/LeeGyeongPil/appcast-updater) | 개발 도구 | Sparkle 과 같은 appcast·Ed25519 키로 Windows 빌드까지 업데이트를 검증하는 순수 Dart 패키지와 appcast CLI. 키 생성·서명·피드 서명·'왜 업데이트가 안 보이나' 점검을 Linux·Windows CI 에서도 한 줄로 합니다. 설치·재실행은 아직 범위 밖입니다. | v0.1.2 |

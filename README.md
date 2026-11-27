@@ -89,6 +89,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 
 | Project | Area | What it does | Version |
 |---|---|---|---|
+| [agui-chat-transport](https://github.com/LeeGyeongPil/agui-chat-transport): Use AG-UI agent servers from AI SDK useChat | Agents | A ChatTransport that lets AI SDK useChat talk to AG-UI agent servers. It converts all 31 AG-UI event types to UIMessage chunks and back, and reports anything it cannot map instead of dropping it. | v0.1.3 |
 | [spinstop](https://github.com/LeeGyeongPil/spinstop): Stop agents from repeating the same tool calls | Agents | A TypeScript library and replay CLI that detects repeated, near-repeated and cyclic agent tool calls and blocks them before the tool runs. | v0.1.0 |
 | [prefcheck](https://github.com/LeeGyeongPil/prefcheck): Lint DPO/ORPO preference datasets before training | Data & fine-tuning | Lints DPO/ORPO preference datasets before training. Replays TRL 1.18 preparation to report rows that get dropped, become identical after truncation, contradict each other, or show length bias, by row number. | v0.1.0 |
 | [appcast-updater](https://github.com/LeeGyeongPil/appcast-updater): Sparkle-compatible appcast signing and verification in Dart | Developer tools | A pure Dart package and appcast CLI that parses Sparkle appcasts, signs releases with Sparkle-compatible Ed25519 keys and verifies signature, size, sha256 and downgrades, on Linux, Windows and macOS. Installing and relaunching are not included yet. | v0.1.2 |
