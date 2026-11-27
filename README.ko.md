@@ -80,6 +80,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [dify-kb-port: Dify 지식베이스 청크 단위 백업·이전·검증](https://github.com/LeeGyeongPil/dify-kb-port) | RAG·검색 | 공개 Knowledge API 키만으로 Dify 지식베이스를 청크 경계·수정 내용·Q&A 답변·메타데이터까지 내보내고, 다른 인스턴스에 그대로 다시 만들고, 해시로 일치 여부를 검증하는 CLI. 중단 후 재개와 연습용 목 서버를 지원합니다. | v0.1.0 |
 | [embed-ab: 임베딩 모델 A/B 검색 비교 도구](https://github.com/LeeGyeongPil/embed-ab) | RAG·검색 | 내 문서와 질문으로 두 임베딩 모델의 검색 품질을 재현율·nDCG·MRR과 신뢰구간, 결과 겹침으로 비교해 모델 교체·재색인 여부를 수치로 결정하게 해 주는 CLI입니다. | v0.1.0 |
 | [judgepool — RAG 검색 정답셋 만들기와 공정한 비교](https://github.com/LeeGyeongPil/judgepool) | RAG·검색 | 검색 결과 파일 여러 개를 브라우저에 올려 시스템 이름을 가린 채 키보드로 관련도(0~3)를 매기면, qrels 정답셋과 trec_eval 과 같은 값의 비교표(nDCG·Recall·P·MRR), 풀링 편향 경고(judged@k)를 얻습니다. | v0.1.0 |
+| [Ollama 리랭크 브리지](https://github.com/LeeGyeongPil/ollama-rerank-bridge) | RAG·검색 | 이미 돌고 있는 Ollama 위에 Cohere·Jina·vLLM·TEI 호환 /v1/rerank 를 붙이고, doctor 로 사전 점검, eval 로 nDCG·MRR 을 확인하는 CLI. | v0.1.2 |
 | [parseoff: 내 PDF로 파서 비교하기](https://github.com/LeeGyeongPil/parseoff) | RAG·검색 | 설치된 PDF 파서를 내 문서에 모두 돌려 원본 페이지 이미지 옆에 결과를 나란히 보여 주고, 정답 없이 계산되는 지표와 라이선스·설치 크기 경고를 함께 알려 주는 CLI. | v0.1.0 |
 | [pgvector-doctor: 필터 검색 HNSW recall 진단](https://github.com/LeeGyeongPil/pgvector-doctor) | RAG·검색 | 내 검색 SQL 의 HNSW 인덱스 recall 을 정확 검색과 비교해 필터 값별로 재고, 목표 recall 을 가장 싸게 맞추는 ef_search·iterative_scan 설정을 추천합니다. | v0.1.0 |
 | [vec0kit: sqlite-vec 테이블 점검·안전 이행 도구](https://github.com/LeeGyeongPil/vec0kit) | RAG·검색 | sqlite-vec vec0 테이블을 점검하고, 차원·거리 척도·양자화·메타데이터 열 변경이나 임베딩 모델 교체를 백업·검증·재개와 함께 안전하게 이행하는 CLI·라이브러리. | v0.1.0 |
