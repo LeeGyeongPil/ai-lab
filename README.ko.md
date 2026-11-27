@@ -18,6 +18,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | [lora-mergecheck: LoRA 합치기 검증기](https://github.com/LeeGyeongPil/lora-mergecheck) | 데이터·파인튜닝 | LoRA 어댑터를 배포용 체크포인트로 합친 뒤, 가중치 층과 출력 층에서 정밀도·갱신 소실·누락을 수치로 확인하고 종료 코드로 CI 를 막는 명령줄 도구. | v0.1.0 |
 | [lora-preflight: LoRA 어댑터 서빙 사전 점검](https://github.com/LeeGyeongPil/lora-preflight) | 데이터·파인튜닝 | PEFT LoRA 어댑터를 vLLM·llama.cpp·Ollama 에 올리기 전에, 설정과 safetensors 헤더만 읽어 런타임별 통과·실패와 수정 명령을 알려 주는 CLI 도구입니다. | v0.1.0 |
 | [loraport: LoRA 어댑터 형식 변환·검증](https://github.com/LeeGyeongPil/loraport) | 데이터·파인튜닝 | 맥(mlx-lm)에서 학습한 LoRA 어댑터를 PEFT 형식으로 옮기고, 옮긴 뒤에도 가중치 변화량(dW)이 같은지 모듈별로 수치 확인하는 CLI. | v0.1.0 |
+| [masklens - SFT 손실 마스크 사전 점검](https://github.com/LeeGyeongPil/masklens) | 데이터·파인튜닝 | 대화형 미세조정(SFT·LoRA) 데이터의 채팅 템플릿·토크나이저·-100 레이블 마스크를 학습 전에 검사해, 레이블이 전부 -100인 경우나 프롬프트 학습·답변 잘림을 찾아 주는 CLI입니다. 토크나이저만 있으면 되고 GPU는 필요 없습니다. | v0.1.4 |
 | [pairpick: 선호 쌍 라벨링 브라우저 앱](https://github.com/LeeGyeongPil/pairpick) | 데이터·파인튜닝 | 응답 두 개 중 나은 쪽을 키보드로 고르면 TRL(DPO·KTO)과 LLaMA-Factory가 읽는 파일을 내보냅니다. 서버 없이 브라우저에서만 동작합니다. | v0.1.0 |
 | [sft-template-lens: 파인튜닝 데이터 채팅 템플릿 검사기](https://github.com/LeeGyeongPil/sft-template-lens) | 데이터·파인튜닝 | 파인튜닝 JSONL을 모델의 실제 채팅 템플릿과 토크나이저로 렌더해, 학습되는 토큰(손실 마스크)·길이 잘림·형식 오류를 학습 전에 보여 줍니다. 브라우저(업로드 없음)와 Node CLI 모두 지원합니다. | v0.1.0 |
 | [speechset-lint: 음성 파인튜닝 데이터셋 사전 점검](https://github.com/LeeGyeongPil/speechset-lint) | 데이터·파인튜닝 | Whisper·CTC·TTS 파인튜닝 전에 NeMo JSONL·audiofolder·LJSpeech 매니페스트를 한 줄로 점검해, 누락 파일·샘플레이트·30초 초과·토큰 448 초과·무음·중복 등을 줄 번호와 이유로 알려 주고 걸러낸 매니페스트를 만들어 줍니다. | v0.2.1 |
