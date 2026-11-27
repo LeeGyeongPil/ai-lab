@@ -9,6 +9,7 @@ Projects that need API keys or models also ship a mock mode, so you can run them
 
 | Project | Area | What it does | Version |
 |---|---|---|---|
+| [a2a-compat](https://github.com/LeeGyeongPil/a2a-compat): Check, convert and bridge A2A 0.3 and 1.0 agents | Agents | CLI and library that diagnoses why A2A 0.3 and 1.0 agents cannot talk, converts agent cards, and runs a translating proxy to bridge them without code changes. | v0.1.3 |
 | [langgraph-preflight](https://github.com/LeeGyeongPil/langgraph-preflight): Check a LangGraph StateGraph before it runs | Agents | Statically checks a LangGraph StateGraph before it runs: concurrent writes to keys without reducers, Send fan-out writes, cycles with no exit and unreachable nodes, reported as table, JSON or SARIF. | v0.1.1 |
 | [lgprune](https://github.com/LeeGyeongPil/lgprune): Prune LangGraph checkpoint databases safely | Agents | Analyze LangGraph checkpoint databases (SQLite, Postgres), preview a retention policy that keeps resume and interrupts working, apply it in one transaction and reclaim disk space. | v0.1.1 |
 | [sandbox-drift](https://github.com/LeeGyeongPil/sandbox-drift): Catch coding-agent sandbox regressions with canary probes | Agents | A CLI that re-checks a coding agent's OS sandbox boundary with harmless canary probes, diffs against the previous snapshot and exits 1 when a blocked cell becomes allowed. | v0.1.0 |

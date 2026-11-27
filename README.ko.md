@@ -9,6 +9,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
+| [a2a-compat: A2A 0.3 ↔ 1.0 호환 점검·변환·프록시](https://github.com/LeeGyeongPil/a2a-compat) | 에이전트 | 버전이 다른 A2A 에이전트가 왜 서로 통하지 않는지 행렬과 원인 코드로 진단하고, 에이전트 카드를 변환하며, 메시지를 양방향 번역하는 프록시로 코드 수정 없이 0.3 과 1.0 을 이어 붙이는 CLI·라이브러리. | v0.1.3 |
 | [langgraph-preflight: LangGraph 그래프 실행 전 점검기](https://github.com/LeeGyeongPil/langgraph-preflight) | 에이전트 | LangGraph StateGraph 를 실행하기 전에 정적으로 검사합니다. 리듀서 없는 키에 같은 단계에서 여러 노드가 쓰는 충돌, Send 병렬 분기의 쓰기, 나갈 길 없는 순환, 도달할 수 없는 노드를 찾아 표·JSON·SARIF 로 보여 줍니다. | v0.1.1 |
 | [lgprune: LangGraph 체크포인트 보존 정책 도구](https://github.com/LeeGyeongPil/lgprune) | 에이전트 | LangGraph 체크포인트 DB(SQLite·Postgres)의 용량을 분석하고, 재개·중단 지점을 깨뜨리지 않는 보존 정책을 미리보기 후 한 트랜잭션으로 적용해 디스크를 돌려줍니다. | v0.1.1 |
 | [sandbox-drift](https://github.com/LeeGyeongPil/sandbox-drift) | 에이전트 | 코딩 에이전트의 OS 샌드박스 경계를 무해한 카나리 프로브로 다시 확인하고, 이전 스냅샷과 비교해 막혀 있던 것이 열리면 CI 를 실패시키는 CLI 도구입니다. | v0.1.0 |
