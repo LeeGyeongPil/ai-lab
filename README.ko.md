@@ -158,6 +158,7 @@ AI·자동화 분야에서 **바로 가져다 쓸 수 있는 프로그램·라�
 | 이름 | 분야 | 무엇을 하나요 | 버전 |
 |---|---|---|---|
 | [빌드 컨텍스트 감사 스킬](https://github.com/LeeGyeongPil/build-context-audit) | 개발 도구 | .dockerignore 규칙을 실행 전에 그대로 재현해, 빌드에 실제로 전송되는 파일과 각 파일을 결정한 규칙 줄, 실패할 COPY 소스, 새어 들어가는 비밀 파일을 찾아 주는 에이전트 스킬. | v0.1.1 |
+| [charfit](https://github.com/LeeGyeongPil/charfit) | 개발 도구 | SMS 분할 수, X 가중 길이, EUC-KR 바이트, UTF-16 길이를 스크립트로 정확히 세고 한도를 넘기는 글자를 짚어 주는 에이전트 스킬입니다. | v0.1.5 |
 | [codeowners-check: CODEOWNERS 해석·검증 스킬](https://github.com/LeeGyeongPil/codeowners-check) | 개발 도구 | GitHub·GitLab 이 읽는 방식 그대로 CODEOWNERS 를 해석하는 에이전트 스킬입니다. 파일별 담당자와 결정한 줄 번호를 보여 주고, 건너뛰는 줄과 가려진 규칙을 찾고, 수정 전후 담당 변화를 비교해 의도한 곳만 바뀌었는지 종료 코드로 알려 줍니다. | v0.1.0 |
 | [config-edit-guard: 설정 파일 최소 편집·검증 스킬](https://github.com/LeeGyeongPil/config-edit-guard) | 개발 도구 | 설정 파일의 값 하나를 바이트 범위만 교체해 고치고, 편집 전후를 의미·텍스트 두 층에서 비교해 의도하지 않은 변경을 종료 코드로 잡아 주는 에이전트 스킬. YAML·JSON/JSONC·TOML·XML·마크다운 앞머리를 지원하며 파이썬 표준 라이브러리만 씁니다. | v0.1.1 |
 | [conflict-ledger: 병합 충돌 해결 누락 검증 스킬](https://github.com/LeeGyeongPil/conflict-ledger) | 개발 도구 | git 3-way 병합·리베이스 충돌을 공통 조상 기준으로 분류하고, 해결 결과가 한쪽 변경을 잃지 않았는지 줄 단위로 검증하는 에이전트 스킬입니다. 파이썬 표준 라이브러리만 쓰며 한국어·영어 출력을 지원합니다. | v0.1.3 |
